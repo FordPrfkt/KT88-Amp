@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name w_to)(type KiCad)(uri "D:\\Eigene Dateien\\Dokumente\\Projekte\\KiCad\\Kicad_Lib\\Footprint\\w_to.pretty")(options "")(descr ""))
+  (lib (name MiniUniversalMate-N-LokSockets_13Aug2012)(type Legacy)(uri "D:\\Eigene Dateien\\Dokumente\\Projekte\\KiCad\\Kicad_Lib\\Footprint\\MiniUniversalMate-N-LokSockets_13Aug2012.mod")(options "")(descr ""))
+  (lib (name w_capacitors)(type KiCad)(uri "D:\\Eigene Dateien\\Dokumente\\Projekte\\KiCad\\Kicad_Lib\\Footprint\\w_capacitors.pretty")(options "")(descr ""))
+  (lib (name w_pth_resistors)(type KiCad)(uri "D:\\Eigene Dateien\\Dokumente\\Projekte\\KiCad\\Kicad_Lib\\Footprint\\w_pth_resistors.pretty")(options "")(descr ""))
+)
