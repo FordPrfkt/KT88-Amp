@@ -342,17 +342,6 @@ F 3 "" H 6000 5750 60  0000 C CNN
 	1    6000 5750
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R8
-U 1 1 56B7FC5E
-P 6550 5750
-F 0 "R8" V 6630 5750 50  0000 C CNN
-F 1 "30k" V 6550 5750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6480 5750 30  0001 C CNN
-F 3 "" H 6550 5750 30  0000 C CNN
-	1    6550 5750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4550 4700 4550 4650
 Wire Wire Line
@@ -367,9 +356,6 @@ Connection ~ 5450 5550
 Wire Wire Line
 	6000 5600 6000 5550
 Connection ~ 6000 5550
-Wire Wire Line
-	6550 5550 6550 5600
-Connection ~ 6550 5550
 $Comp
 L GND #PWR04
 U 1 1 56B7FC70
@@ -424,14 +410,8 @@ Wire Wire Line
 	5450 4650 5450 4700
 Wire Wire Line
 	5450 5050 5450 5000
-Text GLabel 6700 6000 2    60   Input ~ 0
--60V
 Text GLabel 6950 5550 1    60   Input ~ 0
 -120V
-Wire Wire Line
-	6550 6000 6700 6000
-Wire Wire Line
-	6550 6000 6550 5900
 Wire Wire Line
 	5450 5550 7200 5550
 Wire Wire Line
@@ -545,7 +525,7 @@ U 1 1 56B80E01
 P 7550 5650
 F 0 "P2" V 7500 5650 40  0000 C CNN
 F 1 "CONN_2" V 7600 5650 40  0000 C CNN
-F 2 "Sockets_Mini-Universal:MiniUniversalMate-N-LokSocket_2PinHorizontal" H 7550 5650 60  0001 C CNN
+F 2 "MiniUniversalMate-N-LokSockets_13Aug2012:MiniUniversalMate-N-LokSocket_2PinVertical_12Aug2012" H 7550 5650 60  0001 C CNN
 F 3 "" H 7550 5650 60  0000 C CNN
 	1    7550 5650
 	1    0    0    -1  
@@ -571,7 +551,7 @@ U 1 1 56BD12AF
 P 7850 2600
 F 0 "P3" V 7800 2600 40  0000 C CNN
 F 1 "CONN_2" V 7900 2600 40  0000 C CNN
-F 2 "Sockets_Mini-Universal:MiniUniversalMate-N-LokSocket_2PinHorizontal" H 7850 2600 60  0001 C CNN
+F 2 "MiniUniversalMate-N-LokSockets_13Aug2012:MiniUniversalMate-N-LokSocket_2PinVertical_12Aug2012" H 7850 2600 60  0001 C CNN
 F 3 "" H 7850 2600 60  0000 C CNN
 	1    7850 2600
 	1    0    0    -1  
@@ -582,7 +562,7 @@ U 1 1 56BD1692
 P 7850 3050
 F 0 "P4" V 7800 3050 40  0000 C CNN
 F 1 "CONN_2" V 7900 3050 40  0000 C CNN
-F 2 "Sockets_Mini-Universal:MiniUniversalMate-N-LokSocket_2PinHorizontal" H 7850 3050 60  0001 C CNN
+F 2 "MiniUniversalMate-N-LokSockets_13Aug2012:MiniUniversalMate-N-LokSocket_2PinVertical_12Aug2012" H 7850 3050 60  0001 C CNN
 F 3 "" H 7850 3050 60  0000 C CNN
 	1    7850 3050
 	1    0    0    -1  
