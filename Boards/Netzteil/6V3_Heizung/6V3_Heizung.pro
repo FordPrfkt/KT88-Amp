@@ -1,4 +1,4 @@
-update=22.04.2016 01:28:50
+update=26.07.2016 01:48:55
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../Kicad_Lib
@@ -67,3 +65,5 @@ LibName35=D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_relay
 LibName36=D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_transistor
 LibName37=D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_vacuum
 LibName38=D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers
+[general]
+version=1

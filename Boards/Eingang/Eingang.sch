@@ -49,7 +49,7 @@ U 1 1 56B76ECB
 P 3850 2900
 F 0 "P6" H 3850 3100 50  0000 C CNN
 F 1 "CONN_01X03" V 3950 2900 50  0000 C CNN
-F 2 "Sockets_Mini-Universal:MiniUniversalMate-N-LokSocket_3PinVertical" H 3850 2900 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0370_03x2.00mm_Straight" H 3850 2900 50  0001 C CNN
 F 3 "" H 3850 2900 50  0000 C CNN
 	1    3850 2900
 	1    0    0    -1  
@@ -60,7 +60,7 @@ U 1 1 56B76F91
 P 3850 3600
 F 0 "P5" H 3850 3800 50  0000 C CNN
 F 1 "CONN_01X03" V 3950 3600 50  0000 C CNN
-F 2 "Sockets_Mini-Universal:MiniUniversalMate-N-LokSocket_3PinVertical" H 3850 3600 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0370_03x2.00mm_Straight" H 3850 3600 50  0001 C CNN
 F 3 "" H 3850 3600 50  0000 C CNN
 	1    3850 3600
 	1    0    0    -1  
@@ -71,16 +71,16 @@ U 1 1 56B77046
 P 3850 4350
 F 0 "P4" H 3850 4550 50  0000 C CNN
 F 1 "CONN_01X03" V 3950 4350 50  0000 C CNN
-F 2 "Sockets_Mini-Universal:MiniUniversalMate-N-LokSocket_3PinVertical" H 3850 4350 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MicroLatch-53253-0370_03x2.00mm_Straight" H 3850 4350 50  0001 C CNN
 F 3 "" H 3850 4350 50  0000 C CNN
 	1    3850 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth_Clean #PWR1
+L Earth_Clean #PWR01
 U 1 1 56B770D8
 P 2900 4750
-F 0 "#PWR1" H 3150 4750 50  0001 C CNN
+F 0 "#PWR01" H 3150 4750 50  0001 C CNN
 F 1 "Earth_Clean" H 3200 4600 50  0001 C CNN
 F 2 "" H 2900 4700 50  0000 C CNN
 F 3 "" H 2900 4700 50  0000 C CNN
