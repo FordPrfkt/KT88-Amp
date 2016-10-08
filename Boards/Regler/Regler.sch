@@ -145,39 +145,6 @@ F 3 "" H 3050 4900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FINDER-30.22 RL1
-U 1 1 55DA4CFF
-P 4400 1300
-F 0 "RL1" H 5250 1450 50  0000 L CNN
-F 1 "FINDER-30.22" H 5250 1350 50  0000 L CNN
-F 2 "Relays_ThroughHole:Relay_DPDT_Schrack-RT2_RM5mm" H 4400 1300 60  0001 C CNN
-F 3 "" H 4400 1300 60  0000 C CNN
-	1    4400 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L FINDER-30.22 RL2
-U 1 1 55DA4D68
-P 4400 2900
-F 0 "RL2" H 5250 3050 50  0000 L CNN
-F 1 "FINDER-30.22" H 5250 2950 50  0000 L CNN
-F 2 "Relays_ThroughHole:Relay_DPDT_Schrack-RT2_RM5mm" H 4400 2900 60  0001 C CNN
-F 3 "" H 4400 2900 60  0000 C CNN
-	1    4400 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L FINDER-30.22 RL3
-U 1 1 55DA4DBF
-P 4400 4500
-F 0 "RL3" H 5250 4650 50  0000 L CNN
-F 1 "FINDER-30.22" H 5250 4550 50  0000 L CNN
-F 2 "Relays_ThroughHole:Relay_DPDT_Schrack-RT2_RM5mm" H 4400 4500 60  0001 C CNN
-F 3 "" H 4400 4500 60  0000 C CNN
-	1    4400 4500
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR03
 U 1 1 55DA74AA
 P 4850 4100
@@ -216,7 +183,7 @@ U 1 1 55DA80EE
 P 6900 4000
 F 0 "RV2" H 7060 4310 50  0000 C CNN
 F 1 "Alps 20k log" H 7190 3700 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps-RK16-double" H 6900 4000 60  0001 C CNN
+F 2 "Potentiometer_Alps_RKxxx:Potentiometer_Alps-RK271-double" H 6900 4000 60  0001 C CNN
 F 3 "" H 6900 4000 60  0000 C CNN
 	1    6900 4000
 	1    0    0    -1  
@@ -227,7 +194,7 @@ U 1 1 55DA8395
 P 6200 4000
 F 0 "RV1" H 6360 4310 50  0000 C CNN
 F 1 "Alps 50k lin" H 6490 3700 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps-RK16-double" H 6200 4000 60  0001 C CNN
+F 2 "Potentiometer_Alps_RKxxx:Potentiometer_Alps-RK271-double" H 6200 4000 60  0001 C CNN
 F 3 "" H 6200 4000 60  0000 C CNN
 	1    6200 4000
 	1    0    0    -1  
@@ -631,4 +598,37 @@ Wire Wire Line
 	4100 4000 4100 4300
 Wire Wire Line
 	4700 4000 4700 4300
+$Comp
+L IM00 K2
+U 1 1 57F85FBB
+P 4400 2900
+F 0 "K2" H 5250 3050 50  0000 L CNN
+F 1 "IM00" H 5250 2950 50  0000 L CNN
+F 2 "w_relay:relay_gq-pth" H 4400 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0000 C CNN
+	1    4400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L IM00 K1
+U 1 1 57F861A3
+P 4400 1300
+F 0 "K1" H 5250 1450 50  0000 L CNN
+F 1 "IM00" H 5250 1350 50  0000 L CNN
+F 2 "w_relay:relay_gq-pth" H 4400 1300 50  0001 C CNN
+F 3 "" H 4400 1300 50  0000 C CNN
+	1    4400 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L IM00 K3
+U 1 1 57F8622B
+P 4400 4500
+F 0 "K3" H 5250 4650 50  0000 L CNN
+F 1 "IM00" H 5250 4550 50  0000 L CNN
+F 2 "w_relay:relay_gq-pth" H 4400 4500 50  0001 C CNN
+F 3 "" H 4400 4500 50  0000 C CNN
+	1    4400 4500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

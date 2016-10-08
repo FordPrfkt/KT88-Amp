@@ -1,4 +1,4 @@
-update=23.08.2015 16:26:06
+update=08.10.2016 01:18:57
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -60,3 +58,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers
 LibName31=C:/Program Files/KiCad/share/kicad/library/relays
+[general]
+version=1
