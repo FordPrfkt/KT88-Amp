@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name EuroBoard)(type KiCad)(uri "D:\\Eigene Dateien\\Dokumente\\Projekte\\KiCad\\EuroBoard.pretty")(options "")(descr ""))
+  (lib (name EuroBoard)(type KiCad)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/EuroBoard.pretty")(options "")(descr ""))
+  (lib (name Capacitor-Wima-FKP1-1600v)(type Legacy)(uri D:/KiCadLibs/converted/Capacitor-Wima-FKP1-1600v.mod)(options "")(descr ""))
+  (lib (name Capacitor-Wima-MKP10-630v)(type Legacy)(uri D:/KiCadLibs/converted/Capacitor-Wima-MKP10-630v.mod)(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-update=16.08.2016 22:33:57
+update=24.11.2017 01:54:20
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../Kicad_Lib
@@ -141,3 +139,5 @@ LibName109=C:/Program Files/KiCad/share/kicad/library/video
 LibName110=C:/Program Files/KiCad/share/kicad/library/Xicor
 LibName111=C:/Program Files/KiCad/share/kicad/library/xilinx
 LibName112=C:/Program Files/KiCad/share/kicad/library/Zilog
+[general]
+version=1

@@ -1,4 +1,4 @@
-update=08.10.2016 01:18:57
+update=27.10.2017 23:02:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,7 @@ LibName28=contrib
 LibName29=valves
 LibName30=D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers
 LibName31=C:/Program Files/KiCad/share/kicad/library/relays
+LibName32=D:/KiCadLibs/GR_relays
+LibName33=D:/KiCadLibs/reed_relais
 [general]
 version=1

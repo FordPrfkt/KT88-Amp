@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Bias-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -165,7 +166,7 @@ F 3 "" H 6100 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-Bias D1
 U 1 1 57F42CB5
 P 6100 1100
 F 0 "D1" H 6100 1200 50  0000 C CNN
@@ -198,7 +199,7 @@ F 3 "" H 6100 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L LED-RESCUE-Bias D5
 U 1 1 57F43011
 P 6100 2350
 F 0 "D5" H 6100 2450 50  0000 C CNN
@@ -253,7 +254,7 @@ F 3 "" H 6850 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D7
+L LED-RESCUE-Bias D7
 U 1 1 57F43CA6
 P 7650 2350
 F 0 "D7" H 7650 2450 50  0000 C CNN
@@ -356,7 +357,7 @@ F 3 "" H 6100 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D13
+L LED-RESCUE-Bias D13
 U 1 1 57F470DB
 P 6100 3750
 F 0 "D13" H 6100 3850 50  0000 C CNN
@@ -389,7 +390,7 @@ F 3 "" H 6100 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D17
+L LED-RESCUE-Bias D17
 U 1 1 57F470ED
 P 6100 5000
 F 0 "D17" H 6100 5100 50  0000 C CNN
@@ -444,7 +445,7 @@ F 3 "" H 6900 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D19
+L LED-RESCUE-Bias D19
 U 1 1 57F47112
 P 7650 5000
 F 0 "D19" H 7650 5100 50  0000 C CNN
@@ -492,7 +493,7 @@ REF_H
 Text GLabel 4550 5700 0    60   Input ~ 0
 REF_L
 $Comp
-L POT RV1
+L POT-RESCUE-Bias RV1
 U 1 1 57F48480
 P 4000 2900
 F 0 "RV1" H 4000 2820 50  0000 C CNN
@@ -527,7 +528,7 @@ $EndComp
 Text GLabel 4000 2700 1    60   Input ~ 0
 -60V
 $Comp
-L POT RV3
+L POT-RESCUE-Bias RV3
 U 1 1 57F49FA3
 P 4000 4200
 F 0 "RV3" H 4000 4120 50  0000 C CNN
