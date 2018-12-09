@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C
+# Endstufe-rescue:C
 #
-DEF C C 0 10 N Y 1 F N
+DEF Endstufe-rescue:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C" 25 -100 50 H V L CNN
+F1 "Endstufe-rescue:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_01X06
+# Endstufe-rescue:CONN_01X06
 #
-DEF CONN_01X06 P 0 40 Y N 1 F N
+DEF Endstufe-rescue:CONN_01X06 P 0 40 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "CONN_01X06" 100 0 50 V V C CNN
+F1 "Endstufe-rescue:CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -49,11 +49,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_2
+# Endstufe-rescue:CONN_2
 #
-DEF CONN_2 P 0 40 Y N 1 F N
+DEF Endstufe-rescue:CONN_2 P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "CONN_2" 50 0 40 V V C CNN
+F1 "Endstufe-rescue:CONN_2" 50 0 40 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -63,26 +63,11 @@ X P2 2 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# CONN_3
+# Endstufe-rescue:CONN_5
 #
-DEF CONN_3 P 0 40 Y N 1 F N
+DEF Endstufe-rescue:CONN_5 P 0 40 Y Y 1 F N
 F0 "P" -50 0 50 V V C CNN
-F1 "CONN_3" 50 0 40 V V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -100 150 100 -150 0 1 0 N
-X P1 1 -350 100 250 R 60 60 1 1 P I
-X P2 2 -350 0 250 R 60 60 1 1 P I
-X P3 3 -350 -100 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# CONN_5
-#
-DEF CONN_5 P 0 40 Y Y 1 F N
-F0 "P" -50 0 50 V V C CNN
-F1 "CONN_5" 50 0 50 V V C CNN
+F1 "Endstufe-rescue:CONN_5" 50 0 50 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -95,11 +80,11 @@ X ~ 5 -400 -200 300 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# C_Small
+# Endstufe-rescue:C_Small
 #
-DEF C_Small C 0 10 N N 1 F N
+DEF Endstufe-rescue:C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "C_Small" 10 -80 50 H V L CNN
+F1 "Endstufe-rescue:C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -113,57 +98,149 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ECC81
+# Endstufe-rescue:Conn_01x02
 #
-DEF ECC81 U 0 0 Y Y 3 L N
+DEF Endstufe-rescue:Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Endstufe-rescue:Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Endstufe-rescue:Conn_01x06
+#
+DEF Endstufe-rescue:Conn_01x06 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Endstufe-rescue:Conn_01x06" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Endstufe-rescue:ECC83
+#
+DEF Endstufe-rescue:ECC83 U 0 0 Y Y 3 L N
 F0 "U" 130 310 50 H V C CNN
-F1 "ECC81" 350 -300 50 H V C CNN
+F1 "Endstufe-rescue:ECC83" 350 -300 50 H V C CNN
 F2 "Valves:VALVE-NOVAL_P" 270 -400 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS ECC83
 $FPLIST
  VALVE*NOVAL*P*
 $ENDFPLIST
 DRAW
+A 0 -100 200 -1799 -1 0 1 0 N -200 -100 200 -100
+A 0 100 200 1 1799 0 1 0 N 200 100 -200 100
+A 0 -225 103 142 1659 1 1 10 N 100 -200 -100 -200
+A 0 -225 103 142 1659 2 1 10 N 100 -200 -100 -200
+A -50 -275 55 265 1534 3 1 0 N 0 -250 -100 -250
+A 50 -275 55 265 1534 3 1 0 N 100 -250 0 -250
 P 2 1 0 0 -100 -200 -100 -300 N
 P 2 1 0 0 0 200 0 300 N
 P 2 2 0 0 -100 -200 -100 -300 N
 P 2 2 0 0 0 200 0 300 N
-A 0 -100 200 -1799 -1 0 1 0 N -200 -100 200 -100
-A 0 100 200 1 1799 0 1 0 N 200 100 -200 100
 P 2 0 1 0 200 100 200 -100 N
 P 3 0 1 0 -200 100 -200 -100 -200 -100 N
-A 0 -225 103 142 1659 1 1 10 N 100 -200 -100 -200
 P 2 1 1 0 -200 0 -125 0 N
 P 2 1 1 6 -75 0 -125 0 N
 P 2 1 1 6 -25 0 25 0 N
 P 2 1 1 6 75 0 125 0 N
 P 3 1 1 10 -100 200 110 200 110 200 N
-X A 6 0 400 100 D 50 50 1 1 O
-X G 7 -300 0 100 R 50 50 1 1 I
-X K 8 -100 -400 100 U 50 50 1 1 B
-A 0 -225 103 142 1659 2 1 10 N 100 -200 -100 -200
 P 2 2 1 0 -200 0 -125 0 N
 P 2 2 1 6 -75 0 -125 0 N
 P 2 2 1 6 -25 0 25 0 N
 P 2 2 1 6 75 0 125 0 N
 P 3 2 1 10 -100 200 110 200 110 200 N
+X A 6 0 400 100 D 50 50 1 1 O
+X G 7 -300 0 100 R 50 50 1 1 I
+X K 8 -100 -400 100 U 50 50 1 1 B
 X A 1 0 400 100 D 50 50 2 1 O
 X G 2 -300 0 100 R 50 50 2 1 I
 X K 3 -100 -400 100 U 50 50 2 1 B
-A -50 -275 55 265 1534 3 1 0 N 0 -250 -100 -250
-A 50 -275 55 265 1534 3 1 0 N 100 -250 0 -250
 X F1 4 -100 -450 200 U 50 50 3 1 W
 X F1 5 100 -450 200 U 50 50 3 1 W
 X F2 9 0 -450 200 U 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# GND
+# Endstufe-rescue:G6E
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF Endstufe-rescue:G6E K 0 40 Y Y 1 F N
+F0 "K" 450 150 50 H V L CNN
+F1 "Endstufe-rescue:G6E" 450 50 50 H V L CNN
+F2 "Relays_THT:Relay_SPDT_OMRON-G6E" 1130 -30 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Relay*SPDT*OMRON*G6E*
+$ENDFPLIST
+DRAW
+T 0 -160 140 60 0 0 0 + Normal 0 C C
+S -400 200 400 -200 0 1 10 f
+S -325 75 -75 -75 0 1 10 N
+P 2 0 0 0 100 150 100 200 N
+P 2 0 0 0 300 150 300 200 N
+P 4 0 0 0 300 150 300 100 275 125 300 150 N
+P 2 0 1 10 -300 -75 -100 75 N
+P 2 0 1 0 -200 -200 -200 -75 N
+P 2 0 1 0 -200 200 -200 75 N
+P 2 0 1 10 -75 0 -50 0 N
+P 2 0 1 10 -25 0 0 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 25 0 50 0 N
+P 2 0 1 10 75 0 100 0 N
+P 2 0 1 10 125 0 150 0 N
+P 2 0 1 20 200 -100 125 150 N
+P 2 0 1 0 200 -100 200 -200 N
+P 3 0 1 0 100 100 125 125 100 150 F
+X ~ 1 -200 300 100 D 50 50 1 1 P
+X ~ 10 100 300 100 D 50 50 1 1 P
+X ~ 12 300 300 100 D 50 50 1 1 P
+X ~ 6 -200 -300 100 U 50 50 1 1 P
+X ~ 7 200 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Endstufe-rescue:GND
+#
+DEF Endstufe-rescue:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "Endstufe-rescue:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -172,14 +249,13 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# KT66
+# Endstufe-rescue:KT88
 #
-DEF KT66 T 0 1 Y N 1 F N
+DEF Endstufe-rescue:KT88 T 0 1 Y N 1 F N
 F0 "T" 0 -250 60 H V C CNN
-F1 "KT66" 0 -350 60 H V C CNN
+F1 "Endstufe-rescue:KT88" 0 -350 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
-ALIAS 6550 5881 KT88 CV5220 6P3P 6L6G
 DRAW
 A 0 -120 61 1450 349 0 1 10 N -50 -85 50 -85
 A 0 -110 25 1 1799 0 1 0 N 25 -110 -25 -110
@@ -216,11 +292,11 @@ X k 8 -300 -100 100 R 39 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# POT-RESCUE-Endstufe
+# Endstufe-rescue:POT-RESCUE-Endstufe
 #
-DEF POT-RESCUE-Endstufe RV 0 40 Y N 1 F N
+DEF Endstufe-rescue:POT-RESCUE-Endstufe RV 0 40 Y N 1 F N
 F0 "RV" 0 -100 50 H V C CNN
-F1 "POT-RESCUE-Endstufe" 0 0 50 H V C CNN
+F1 "Endstufe-rescue:POT-RESCUE-Endstufe" 0 0 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -232,24 +308,11 @@ X 3 3 250 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PWR_FLAG
+# Endstufe-rescue:R
 #
-DEF PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-X pwr 1 0 0 0 U 50 50 0 0 w
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-ENDDRAW
-ENDDEF
-#
-# R
-#
-DEF R R 0 0 N Y 1 F N
+DEF Endstufe-rescue:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "Endstufe-rescue:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

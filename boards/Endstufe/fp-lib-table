@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name w_pth_circuits)(type KiCad)(uri D:\KiCadLibs\libaries\w_pth_circuits.pretty)(options "")(descr ""))
+  (lib (name w_pth_resistors)(type KiCad)(uri D:\KiCadLibs\libaries\w_pth_resistors.pretty)(options "")(descr ""))
+  (lib (name Reed)(type Legacy)(uri D:\KiCadLibs\Reed.mod)(options "")(descr ""))
+)

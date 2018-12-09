@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Eingang-rescue)(type Legacy)(uri ${KIPRJMOD}/Eingang-rescue.lib)(options "")(descr ""))
+  (lib (name reed_relais)(type Legacy)(uri D:/KiCadLibs/reed_relais.lib)(options "")(descr ""))
+)

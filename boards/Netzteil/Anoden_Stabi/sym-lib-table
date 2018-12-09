@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Anoden_Stabi-rescue)(type Legacy)(uri ${KIPRJMOD}/Anoden_Stabi-rescue.lib)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/power.lib")(options "")(descr ""))
+  (lib (name borniers)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers.lib")(options "")(descr ""))
+)

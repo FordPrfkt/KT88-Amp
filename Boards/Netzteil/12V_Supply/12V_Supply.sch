@@ -1,86 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:12V_Supply-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_transistor
-LIBS:borniers
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:Altera
-LIBS:analog_devices
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:dc-dc
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:hc11
-LIBS:ir
-LIBS:Lattice
-LIBS:maxim
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:Oscillators
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:transf
-LIBS:ttl_ieee
-LIBS:video
-LIBS:Xicor
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:12V_Supply-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -95,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BRIDGE D1
+L w_device:BRIDGE D1
 U 1 1 55C52B4F
 P 2600 2200
 F 0 "D1" H 2600 2250 40  0000 C CNN
@@ -106,7 +26,7 @@ F 3 "" H 2600 2200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P1
+L borniers:CONN_2 P1
 U 1 1 55C544D9
 P 950 2200
 F 0 "P1" V 900 2200 40  0000 C CNN
@@ -117,7 +37,7 @@ F 3 "" H 950 2200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LM7812CT U2
+L 12V_Supply-rescue:LM7812CT U2
 U 1 1 55C54685
 P 5100 2250
 F 0 "U2" H 4900 2450 40  0000 C CNN
@@ -128,7 +48,7 @@ F 3 "" H 5100 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C1
+L Device:CP C1
 U 1 1 55C546E0
 P 3650 2350
 F 0 "C1" H 3675 2450 50  0000 L CNN
@@ -139,7 +59,7 @@ F 3 "" H 3650 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Device:C C2
 U 1 1 55C54749
 P 4350 2350
 F 0 "C2" H 4375 2450 50  0000 L CNN
@@ -150,7 +70,7 @@ F 3 "" H 4350 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L Device:C C3
 U 1 1 55C547E2
 P 5750 2350
 F 0 "C3" H 5775 2450 50  0000 L CNN
@@ -161,7 +81,7 @@ F 3 "" H 5750 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C5
+L Device:CP C5
 U 1 1 55C5482E
 P 6550 2350
 F 0 "C5" H 6575 2450 50  0000 L CNN
@@ -174,10 +94,10 @@ $EndComp
 Connection ~ 3650 2200
 Connection ~ 4350 2200
 Wire Wire Line
-	5500 2200 7450 2200
+	5500 2200 5750 2200
 Connection ~ 5750 2200
 $Comp
-L CONN_2 P2
+L borniers:CONN_2 P2
 U 1 1 55C54C8E
 P 7800 2300
 F 0 "P2" V 7750 2300 40  0000 C CNN
@@ -188,7 +108,7 @@ F 3 "" H 7800 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P3
+L borniers:CONN_2 P3
 U 1 1 55C54D95
 P 7800 2900
 F 0 "P3" V 7750 2900 40  0000 C CNN
@@ -202,10 +122,10 @@ Connection ~ 6550 2200
 Wire Wire Line
 	7150 2800 7450 2800
 Wire Wire Line
-	7150 1950 7150 4850
+	7150 1950 7150 2200
 Connection ~ 7150 2200
 $Comp
-L GND-RESCUE-12V_Supply #PWR01
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR01
 U 1 1 55C54F23
 P 7450 3150
 F 0 "#PWR01" H 7450 3150 30  0001 C CNN
@@ -216,7 +136,7 @@ F 3 "" H 7450 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR02
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR02
 U 1 1 55C54FA5
 P 7450 2500
 F 0 "#PWR02" H 7450 2500 30  0001 C CNN
@@ -227,7 +147,7 @@ F 3 "" H 7450 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR03
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR03
 U 1 1 55C54FCF
 P 6550 2600
 F 0 "#PWR03" H 6550 2600 30  0001 C CNN
@@ -238,7 +158,7 @@ F 3 "" H 6550 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR04
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR04
 U 1 1 55C55002
 P 5750 2600
 F 0 "#PWR04" H 5750 2600 30  0001 C CNN
@@ -249,7 +169,7 @@ F 3 "" H 5750 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR05
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR05
 U 1 1 55C5507B
 P 5100 2600
 F 0 "#PWR05" H 5100 2600 30  0001 C CNN
@@ -260,7 +180,7 @@ F 3 "" H 5100 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR06
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR06
 U 1 1 55C550A7
 P 4350 2600
 F 0 "#PWR06" H 4350 2600 30  0001 C CNN
@@ -271,7 +191,7 @@ F 3 "" H 4350 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR07
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR07
 U 1 1 55C550D3
 P 3650 2600
 F 0 "#PWR07" H 3650 2600 30  0001 C CNN
@@ -282,7 +202,7 @@ F 3 "" H 3650 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR08
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR08
 U 1 1 55C550FF
 P 2300 2600
 F 0 "#PWR08" H 2300 2600 30  0001 C CNN
@@ -305,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 2500 7450 2400
 $Comp
-L +12V #PWR09
+L power:+12V #PWR09
 U 1 1 55C558D9
 P 7150 1950
 F 0 "#PWR09" H 7150 1900 20  0001 C CNN
@@ -316,7 +236,7 @@ F 3 "" H 7150 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM555N-RESCUE-12V_Supply U1
+L 12V_Supply-rescue:LM555N-RESCUE-12V_Supply U1
 U 1 1 55C55C2A
 P 5050 4850
 F 0 "U1" H 5050 4950 70  0000 C CNN
@@ -327,7 +247,7 @@ F 3 "" H 5050 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P4
+L borniers:CONN_2 P4
 U 1 1 55C56025
 P 7800 4550
 F 0 "P4" V 7750 4550 40  0000 C CNN
@@ -338,7 +258,7 @@ F 3 "" H 7800 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4
+L Device:D D4
 U 1 1 55C5639B
 P 6550 4650
 F 0 "D4" H 6550 4750 50  0000 C CNN
@@ -349,7 +269,7 @@ F 3 "" H 6550 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-12V_Supply #PWR010
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR010
 U 1 1 55C5698D
 P 5050 5400
 F 0 "#PWR010" H 5050 5400 30  0001 C CNN
@@ -362,7 +282,7 @@ $EndComp
 Wire Wire Line
 	5050 5400 5050 5250
 $Comp
-L CP C4
+L Device:CP C4
 U 1 1 55C574DA
 P 5950 5200
 F 0 "C4" H 5975 5300 50  0000 L CNN
@@ -373,7 +293,7 @@ F 3 "" H 5950 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Device:R R1
 U 1 1 55C576FC
 P 5950 4050
 F 0 "R1" V 6030 4050 50  0000 C CNN
@@ -384,7 +304,7 @@ F 3 "" H 5950 4050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3
+L Device:D D3
 U 1 1 55C578BD
 P 5500 4000
 F 0 "D3" H 5500 4100 50  0000 C CNN
@@ -397,14 +317,14 @@ $EndComp
 Wire Wire Line
 	5950 5050 5750 5050
 Wire Wire Line
-	5950 4200 5950 5050
+	5950 4200 5950 4300
 Wire Wire Line
 	4350 4650 4300 4650
 Wire Wire Line
 	4300 4650 4300 4300
 Connection ~ 5950 4300
 $Comp
-L GND-RESCUE-12V_Supply #PWR011
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR011
 U 1 1 55C57D8C
 P 5950 5450
 F 0 "#PWR011" H 5950 5450 30  0001 C CNN
@@ -417,7 +337,7 @@ $EndComp
 Wire Wire Line
 	5950 5450 5950 5350
 $Comp
-L D D2
+L Device:D D2
 U 1 1 55C58641
 P 5100 1800
 F 0 "D2" H 5100 1900 50  0000 C CNN
@@ -442,13 +362,13 @@ Text Notes 3900 4150 0    60   ~ 0
 Power-On-Delay\nca. 10s\n(Tdelay = 1.1 * C * R)
 Connection ~ 7150 2800
 Wire Wire Line
-	5050 3750 5050 4450
+	5050 3750 5050 3800
 Wire Wire Line
-	4300 4300 5950 4300
+	4300 4300 5500 4300
 Wire Wire Line
 	5500 4300 5500 4150
 $Comp
-L +12V #PWR012
+L power:+12V #PWR012
 U 1 1 55C5B443
 P 5050 3750
 F 0 "#PWR012" H 5050 3700 20  0001 C CNN
@@ -461,7 +381,7 @@ $EndComp
 Wire Wire Line
 	5950 3800 5950 3900
 Wire Wire Line
-	5050 3800 5950 3800
+	5050 3800 5500 3800
 Connection ~ 5050 3800
 Wire Wire Line
 	5500 3850 5500 3800
@@ -470,7 +390,7 @@ Connection ~ 5500 4300
 Wire Wire Line
 	5750 4650 6400 4650
 Wire Wire Line
-	6700 4650 7450 4650
+	6700 4650 6850 4650
 Wire Wire Line
 	7150 4450 7450 4450
 Wire Wire Line
@@ -492,7 +412,7 @@ Wire Wire Line
 Connection ~ 4700 2200
 Connection ~ 5500 2200
 $Comp
-L F_Small F1
+L 12V_Supply-rescue:F_Small F1
 U 1 1 55C5D9C9
 P 2250 1900
 F 0 "F1" H 2210 1960 50  0000 L CNN
@@ -507,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 1900 2600 1900
 $Comp
-L CONN_2 P5
+L borniers:CONN_2 P5
 U 1 1 55C680A8
 P 7800 3400
 F 0 "P5" V 7750 3400 40  0000 C CNN
@@ -520,7 +440,7 @@ $EndComp
 Wire Wire Line
 	7150 3300 7450 3300
 $Comp
-L GND-RESCUE-12V_Supply #PWR013
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR013
 U 1 1 55C680B0
 P 7450 3650
 F 0 "#PWR013" H 7450 3650 30  0001 C CNN
@@ -534,7 +454,7 @@ Connection ~ 7150 3300
 Wire Wire Line
 	7450 3500 7450 3650
 $Comp
-L CONN_2 P6
+L borniers:CONN_2 P6
 U 1 1 55C6810E
 P 7800 3950
 F 0 "P6" V 7750 3950 40  0000 C CNN
@@ -547,7 +467,7 @@ $EndComp
 Wire Wire Line
 	7150 3850 7450 3850
 $Comp
-L GND-RESCUE-12V_Supply #PWR014
+L 12V_Supply-rescue:GND-RESCUE-12V_Supply #PWR014
 U 1 1 55C68115
 P 7450 4200
 F 0 "#PWR014" H 7450 4200 30  0001 C CNN
@@ -563,7 +483,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2600 2300 2200
 $Comp
-L PWR_FLAG #FLG015
+L power:PWR_FLAG #FLG015
 U 1 1 55CDAF94
 P 6900 2200
 F 0 "#FLG015" H 6900 2470 30  0001 C CNN
@@ -575,7 +495,7 @@ F 3 "" H 6900 2200 60  0000 C CNN
 $EndComp
 Connection ~ 6900 2200
 $Comp
-L TRANSF1 TR1
+L 12V_Supply-rescue:TRANSF1 TR1
 U 1 1 55CD0FFE
 P 1750 2200
 F 0 "TR1" H 1750 2450 50  0000 C CNN
@@ -586,7 +506,7 @@ F 3 "" H 1750 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 55D87104
 P 3250 2200
 F 0 "R2" V 3330 2200 50  0000 C CNN
@@ -599,9 +519,9 @@ $EndComp
 Wire Wire Line
 	2900 2200 3100 2200
 Wire Wire Line
-	4700 2200 3400 2200
+	4700 2200 4350 2200
 $Comp
-L CONN_2 P7
+L borniers:CONN_2 P7
 U 1 1 55DE74EC
 P 7800 4950
 F 0 "P7" V 7750 4950 40  0000 C CNN
@@ -620,7 +540,7 @@ Wire Wire Line
 	7300 5050 7450 5050
 Connection ~ 7300 4650
 $Comp
-L LED D5
+L Device:LED D5
 U 1 1 5A176B87
 P 6850 4300
 F 0 "D5" H 6850 4400 50  0000 C CNN
@@ -631,7 +551,7 @@ F 3 "" H 6850 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5A176DF9
 P 6850 3900
 F 0 "R3" V 6930 3900 50  0000 C CNN
@@ -647,7 +567,7 @@ Connection ~ 6850 4650
 Wire Wire Line
 	6850 4050 6850 4150
 $Comp
-L +12V #PWR016
+L power:+12V #PWR016
 U 1 1 5A177000
 P 6850 3650
 F 0 "#PWR016" H 6850 3600 20  0001 C CNN
@@ -659,4 +579,38 @@ F 3 "" H 6850 3650 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6850 3750 6850 3650
+Wire Wire Line
+	3650 2200 3400 2200
+Wire Wire Line
+	4350 2200 3650 2200
+Wire Wire Line
+	5750 2200 6550 2200
+Wire Wire Line
+	6550 2200 6900 2200
+Wire Wire Line
+	7150 2200 7150 2800
+Wire Wire Line
+	7150 2200 7450 2200
+Wire Wire Line
+	5950 4300 5950 5050
+Wire Wire Line
+	7150 2800 7150 3300
+Wire Wire Line
+	5050 3800 5050 4450
+Wire Wire Line
+	5500 3800 5950 3800
+Wire Wire Line
+	5500 4300 5950 4300
+Wire Wire Line
+	7150 3300 7150 3850
+Wire Wire Line
+	7150 3850 7150 4450
+Wire Wire Line
+	6900 2200 7150 2200
+Wire Wire Line
+	7150 4450 7150 4850
+Wire Wire Line
+	7300 4650 7450 4650
+Wire Wire Line
+	6850 4650 7300 4650
 $EndSCHEMATC

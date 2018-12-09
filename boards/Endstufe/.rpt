@@ -1,0 +1,14 @@
+** Drc report for D:\Eigene Dateien\Dokumente\Projekte\KT88-Amp\Boards\Endstufe\Endstufe.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 2 unconnected pads **
+ErrType(2): Nicht verbundene Pads
+    @ (101,092 mm,71,628 mm): Pad 2 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von C4 net Net-(C2-Pad2)
+    @ (101,032 mm,62,484 mm): Pad 2 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von C2
+ErrType(2): Nicht verbundene Pads
+    @ (138,176 mm,76,708 mm): Pad 2 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von R7 net UG_1
+    @ (138,430 mm,72,644 mm): Pad 1 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von R2
+
+** End of Report **

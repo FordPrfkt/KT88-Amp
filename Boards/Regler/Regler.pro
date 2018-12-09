@@ -1,4 +1,4 @@
-update=27.10.2017 23:02:10
+update=07.09.2018 11:41:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,42 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers
-LibName31=C:/Program Files/KiCad/share/kicad/library/relays
-LibName32=D:/KiCadLibs/GR_relays
-LibName33=D:/KiCadLibs/reed_relais
-[general]
-version=1
