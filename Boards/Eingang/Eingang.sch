@@ -26,7 +26,7 @@ F 3 "" H 6900 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L reed_relais:DIP_7221-D K1
+L Eingang-rescue:DIP_7221-D-reed_relais K1
 U 1 1 582268E9
 P 5350 1900
 F 0 "K1" H 5250 1450 60  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 4200 4700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L reed_relais:DIP_7221-D K2
+L Eingang-rescue:DIP_7221-D-reed_relais K2
 U 1 1 58227636
 P 5350 3950
 F 0 "K2" H 5250 3500 60  0000 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 5800 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L reed_relais:DIP_7221-D K4
+L Eingang-rescue:DIP_7221-D-reed_relais K4
 U 1 1 58229906
 P 5350 2850
 F 0 "K4" H 5250 2400 60  0000 C CNN
@@ -122,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2850 4250 2850
 $Comp
-L reed_relais:DIP_7221-D K5
+L Eingang-rescue:DIP_7221-D-reed_relais K5
 U 1 1 5822A34E
 P 5350 4900
 F 0 "K5" H 5250 4450 60  0000 C CNN

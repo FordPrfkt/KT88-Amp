@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3000 6000 3550
 $Comp
-L borniers:CONN_3 P1
+L Regler-rescue:CONN_3-borniers P1
 U 1 1 581F54BF
 P 3650 3200
 F 0 "P1" V 3600 3200 50  0000 C CNN
@@ -124,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 3200 4100 3500
 $Comp
-L borniers:CONN_2 P2
+L Regler-rescue:CONN_2-borniers P2
 U 1 1 5945B6EB
 P 6400 2900
 F 0 "P2" V 6350 2900 40  0000 C CNN
@@ -135,7 +135,7 @@ F 3 "" H 6400 2900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L borniers:CONN_2 P3
+L Regler-rescue:CONN_2-borniers P3
 U 1 1 5945B7D4
 P 6400 3450
 F 0 "P3" V 6350 3450 40  0000 C CNN

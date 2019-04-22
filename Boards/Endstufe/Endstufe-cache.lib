@@ -1,11 +1,31 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Endstufe-rescue:C
+# Diode_1N4001
 #
-DEF Endstufe-rescue:C C 0 10 N Y 1 F N
+DEF Diode_1N4001 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_1N4001" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS 1N4002 1N4003 1N4004 1N4005 1N4006 1N4007 BA157 BA158 BA159
+$FPLIST
+ D*DO?41*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Endstufe-rescue_C
+#
+DEF Endstufe-rescue_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Endstufe-rescue:C" 25 -100 50 H V L CNN
+F1 "Endstufe-rescue_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +39,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:CONN_01X06
+# Endstufe-rescue_CONN_01X06
 #
-DEF Endstufe-rescue:CONN_01X06 P 0 40 Y N 1 F N
+DEF Endstufe-rescue_CONN_01X06 P 0 40 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "Endstufe-rescue:CONN_01X06" 100 0 50 V V C CNN
+F1 "Endstufe-rescue_CONN_01X06" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -49,11 +69,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:CONN_2
+# Endstufe-rescue_CONN_2
 #
-DEF Endstufe-rescue:CONN_2 P 0 40 Y N 1 F N
+DEF Endstufe-rescue_CONN_2 P 0 40 Y N 1 F N
 F0 "P" -50 0 40 V V C CNN
-F1 "Endstufe-rescue:CONN_2" 50 0 40 V V C CNN
+F1 "Endstufe-rescue_CONN_2" 50 0 40 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -63,11 +83,11 @@ X P2 2 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:CONN_5
+# Endstufe-rescue_CONN_5
 #
-DEF Endstufe-rescue:CONN_5 P 0 40 Y Y 1 F N
+DEF Endstufe-rescue_CONN_5 P 0 40 Y Y 1 F N
 F0 "P" -50 0 50 V V C CNN
-F1 "Endstufe-rescue:CONN_5" 50 0 50 V V C CNN
+F1 "Endstufe-rescue_CONN_5" 50 0 50 V V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -80,11 +100,11 @@ X ~ 5 -400 -200 300 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:C_Small
+# Endstufe-rescue_C_Small
 #
-DEF Endstufe-rescue:C_Small C 0 10 N N 1 F N
+DEF Endstufe-rescue_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Endstufe-rescue:C_Small" 10 -80 50 H V L CNN
+F1 "Endstufe-rescue_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -98,11 +118,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:Conn_01x02
+# Endstufe-rescue_Conn_01x02
 #
-DEF Endstufe-rescue:Conn_01x02 J 0 40 Y N 1 F N
+DEF Endstufe-rescue_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Endstufe-rescue:Conn_01x02" 0 -200 50 H V C CNN
+F1 "Endstufe-rescue_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -122,11 +142,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:Conn_01x06
+# Endstufe-rescue_Conn_01x06
 #
-DEF Endstufe-rescue:Conn_01x06 J 0 40 Y N 1 F N
+DEF Endstufe-rescue_Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Endstufe-rescue:Conn_01x06" 0 -400 50 H V C CNN
+F1 "Endstufe-rescue_Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -154,11 +174,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:ECC83
+# Endstufe-rescue_ECC83
 #
-DEF Endstufe-rescue:ECC83 U 0 0 Y Y 3 L N
+DEF Endstufe-rescue_ECC83 U 0 0 Y Y 3 L N
 F0 "U" 130 310 50 H V C CNN
-F1 "Endstufe-rescue:ECC83" 350 -300 50 H V C CNN
+F1 "Endstufe-rescue_ECC83" 350 -300 50 H V C CNN
 F2 "Valves:VALVE-NOVAL_P" 270 -400 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -199,11 +219,11 @@ X F2 9 0 -450 200 U 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:G6E
+# Endstufe-rescue_G6E
 #
-DEF Endstufe-rescue:G6E K 0 40 Y Y 1 F N
+DEF Endstufe-rescue_G6E K 0 40 Y Y 1 F N
 F0 "K" 450 150 50 H V L CNN
-F1 "Endstufe-rescue:G6E" 450 50 50 H V L CNN
+F1 "Endstufe-rescue_G6E" 450 50 50 H V L CNN
 F2 "Relays_THT:Relay_SPDT_OMRON-G6E" 1130 -30 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -236,11 +256,11 @@ X ~ 7 200 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:GND
+# Endstufe-rescue_GND
 #
-DEF Endstufe-rescue:GND #PWR 0 0 Y Y 1 F P
+DEF Endstufe-rescue_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Endstufe-rescue:GND" 0 -150 50 H V C CNN
+F1 "Endstufe-rescue_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -249,11 +269,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:KT88
+# Endstufe-rescue_KT88
 #
-DEF Endstufe-rescue:KT88 T 0 1 Y N 1 F N
+DEF Endstufe-rescue_KT88 T 0 1 Y N 1 F N
 F0 "T" 0 -250 60 H V C CNN
-F1 "Endstufe-rescue:KT88" 0 -350 60 H V C CNN
+F1 "Endstufe-rescue_KT88" 0 -350 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -292,11 +312,11 @@ X k 8 -300 -100 100 R 39 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:POT-RESCUE-Endstufe
+# Endstufe-rescue_POT-RESCUE-Endstufe
 #
-DEF Endstufe-rescue:POT-RESCUE-Endstufe RV 0 40 Y N 1 F N
+DEF Endstufe-rescue_POT-RESCUE-Endstufe RV 0 40 Y N 1 F N
 F0 "RV" 0 -100 50 H V C CNN
-F1 "Endstufe-rescue:POT-RESCUE-Endstufe" 0 0 50 H V C CNN
+F1 "Endstufe-rescue_POT-RESCUE-Endstufe" 0 0 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -308,11 +328,11 @@ X 3 3 250 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Endstufe-rescue:R
+# Endstufe-rescue_R
 #
-DEF Endstufe-rescue:R R 0 0 N Y 1 F N
+DEF Endstufe-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Endstufe-rescue:R" 0 0 50 V V C CNN
+F1 "Endstufe-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

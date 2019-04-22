@@ -1,11 +1,40 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Regler-rescue:DUAL_POT
+# Regler-rescue_CONN_2-borniers
 #
-DEF Regler-rescue:DUAL_POT RV 0 40 Y N 1 F N
+DEF Regler-rescue_CONN_2-borniers P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "Regler-rescue_CONN_2-borniers" 50 0 40 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 60 60 1 1 P I
+X P2 2 -350 -100 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Regler-rescue_CONN_3-borniers
+#
+DEF Regler-rescue_CONN_3-borniers P 0 40 Y N 1 F N
+F0 "P" -50 0 50 V V C CNN
+F1 "Regler-rescue_CONN_3-borniers" 50 0 40 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 60 60 1 1 P I
+X P2 2 -350 0 250 R 60 60 1 1 P I
+X P3 3 -350 -100 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Regler-rescue_DUAL_POT
+#
+DEF Regler-rescue_DUAL_POT RV 0 40 Y N 1 F N
 F0 "RV" 160 310 50 H V C CNN
-F1 "Regler-rescue:DUAL_POT" 290 -300 50 H V C CNN
+F1 "Regler-rescue_DUAL_POT" 290 -300 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -35,40 +64,11 @@ X ~ 6 -150 -300 100 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# borniers:CONN_2
+# power_Earth_Clean
 #
-DEF borniers:CONN_2 P 0 40 Y N 1 F N
-F0 "P" -50 0 40 V V C CNN
-F1 "borniers:CONN_2" 50 0 40 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 150 100 -150 0 1 0 N
-X P1 1 -350 100 250 R 60 60 1 1 P I
-X P2 2 -350 -100 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# borniers:CONN_3
-#
-DEF borniers:CONN_3 P 0 40 Y N 1 F N
-F0 "P" -50 0 50 V V C CNN
-F1 "borniers:CONN_3" 50 0 40 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 150 100 -150 0 1 0 N
-X P1 1 -350 100 250 R 60 60 1 1 P I
-X P2 2 -350 0 250 R 60 60 1 1 P I
-X P3 3 -350 -100 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# power:Earth_Clean
-#
-DEF ~power:Earth_Clean #PWR 0 0 Y Y 1 F P
+DEF ~power_Earth_Clean #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 250 0 50 H I C CNN
-F1 "power:Earth_Clean" 300 -150 50 H I C CNN
+F1 "power_Earth_Clean" 300 -150 50 H I C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW

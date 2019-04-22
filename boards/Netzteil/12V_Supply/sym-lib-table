@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name 12V_Supply-rescue)(type Legacy)(uri ${KIPRJMOD}/12V_Supply-rescue.lib)(options "")(descr ""))
-  (lib (name w_connectors)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_connectors.lib")(options "")(descr ""))
-  (lib (name w_device)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_device.lib")(options "")(descr ""))
-  (lib (name w_transistor)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_transistor.lib")(options "")(descr ""))
-  (lib (name borniers)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers.lib")(options "")(descr ""))
-)
