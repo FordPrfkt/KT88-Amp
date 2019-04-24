@@ -914,7 +914,7 @@ Text Label 3450 2350 0    60   ~ 0
 BIAS_R1
 Text Label 3450 5000 0    60   ~ 0
 BIAS_R2
-Text Notes 1250 3100 0    60   ~ 0
+Text Notes 1500 3100 0    60   ~ 0
 Alle 1%
 $Comp
 L power:GNDS #PWR09
