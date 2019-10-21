@@ -304,12 +304,12 @@ $EndComp
 $Comp
 L Device:C C6
 U 1 1 56B7FC57
-P 6150 5100
-F 0 "C6" H 6150 5000 50  0000 L CNN
-F 1 "1µF/400V" H 5750 5200 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L41.5mm_W20.0mm_P37.50mm_MKS4" H 6188 4950 30  0001 C CNN
-F 3 "" H 6150 5100 60  0000 C CNN
-	1    6150 5100
+P 6050 5100
+F 0 "C6" H 6050 5000 50  0000 L CNN
+F 1 "1µF/400V" H 5650 5200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L41.5mm_W20.0mm_P37.50mm_MKS4" H 6088 4950 30  0001 C CNN
+F 3 "" H 6050 5100 60  0000 C CNN
+	1    6050 5100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -324,7 +324,7 @@ Wire Wire Line
 	5400 4800 5400 4900
 Connection ~ 5400 4900
 Wire Wire Line
-	6150 4950 6150 4900
+	6050 4950 6050 4900
 $Comp
 L Anoden_Stabi-rescue:GND-power1 #PWR04
 U 1 1 56B7FC70
@@ -352,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 5250 4950 5350
 Wire Wire Line
-	6150 5350 6150 5250
+	6050 5350 6050 5250
 Text GLabel 4500 4000 1    60   Input ~ 0
 -180V
 Text GLabel 5400 4000 1    60   Input ~ 0
@@ -376,10 +376,10 @@ Wire Wire Line
 	5400 4000 5400 4050
 Wire Wire Line
 	5400 4400 5400 4350
-Text GLabel 6900 4850 1    60   Input ~ 0
+Text GLabel 6700 4850 1    60   Input ~ 0
 -120V
 Wire Wire Line
-	5400 4900 6150 4900
+	5400 4900 6050 4900
 $Comp
 L Device:Q_PNP_BCE Q2
 U 1 1 56B7FC94
@@ -471,13 +471,13 @@ Wire Wire Line
 $Comp
 L Anoden_Stabi-rescue:Conn_01x06 J1
 U 1 1 5A91D37A
-P 8050 4800
-F 0 "J1" H 8050 5100 50  0000 C CNN
-F 1 "Conn_01x06" H 8050 4400 50  0000 C CNN
-F 2 "Connectors_Mini-Universal:MiniUniversalMate-N-LokSocket_6PinVertical" H 8050 4800 50  0001 C CNN
-F 3 "" H 8050 4800 50  0001 C CNN
-	1    8050 4800
-	1    0    0    -1  
+P 8200 5100
+F 0 "J1" H 8200 5400 50  0000 C CNN
+F 1 "Conn_01x06" H 8200 4700 50  0000 C CNN
+F 2 "Connectors_Mini-Universal:MiniUniversalMate-N-LokSocket_6PinVertical" H 8200 5100 50  0001 C CNN
+F 3 "" H 8200 5100 50  0001 C CNN
+	1    8200 5100
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4500 2200 4500 2300
@@ -514,67 +514,65 @@ Wire Wire Line
 Wire Wire Line
 	2850 1350 2900 1350
 Wire Wire Line
-	6150 4900 6900 4900
-Connection ~ 6150 4900
+	6050 4900 6700 4900
+Connection ~ 6050 4900
 Wire Wire Line
-	6900 4850 6900 4900
-Connection ~ 6900 4900
+	6700 4850 6700 4900
+Connection ~ 6700 4900
 Wire Wire Line
 	4950 5350 5400 5350
 Wire Wire Line
 	5400 5250 5400 5350
 Connection ~ 5400 5350
 Wire Wire Line
-	5400 5350 6150 5350
+	5400 5350 6050 5350
 Wire Wire Line
 	5400 5450 5400 5350
+Wire Wire Line
+	7650 2500 7650 4800
 $Comp
 L Device:R R8
-U 1 1 5BAA5153
-P 6150 4650
-F 0 "R8" V 6230 4650 50  0000 C CNN
-F 1 "10k" V 6150 4650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 4650 30  0001 C CNN
-F 3 "" H 6150 4650 30  0000 C CNN
-	1    6150 4650
+U 1 1 5DB1F1E8
+P 6700 5100
+F 0 "R8" V 6780 5100 50  0000 C CNN
+F 1 "10k" V 6700 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 5100 30  0001 C CNN
+F 3 "" H 6700 5100 30  0000 C CNN
+	1    6700 5100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7650 2500 7650 4600
+	6700 4950 6700 4900
 Wire Wire Line
-	6150 4900 6150 4800
+	6700 5250 6700 5300
 Wire Wire Line
-	6150 4500 6150 4300
-Text GLabel 6150 4200 1    50   Input ~ 0
+	8000 4800 7650 4800
+Wire Wire Line
+	6700 5300 6950 5300
+Wire Wire Line
+	8000 5200 7400 5200
+Wire Wire Line
+	7400 5200 7400 4900
+Wire Wire Line
+	7400 4900 6700 4900
+Wire Wire Line
+	8000 4900 7750 4900
+Wire Wire Line
+	7750 4900 7750 5100
+Wire Wire Line
+	8000 5000 7500 5000
+Wire Wire Line
+	7500 5000 7500 2950
+Wire Wire Line
+	8000 5100 7750 5100
+Connection ~ 7750 5100
+Wire Wire Line
+	7750 5100 7750 5550
+Text GLabel 6950 5250 1    50   Input ~ 0
 -60V
 Wire Wire Line
-	6150 4300 6150 4200
-Connection ~ 6150 4300
+	6950 5300 6950 5250
+Connection ~ 6950 5300
 Wire Wire Line
-	6150 4300 7400 4300
-Wire Wire Line
-	7850 4800 7250 4800
-Wire Wire Line
-	7250 4800 7250 4900
-Wire Wire Line
-	7850 4900 7750 4900
-Wire Wire Line
-	7850 4600 7650 4600
-Wire Wire Line
-	7850 4700 7500 4700
-Wire Wire Line
-	7500 2950 7500 4700
-Wire Wire Line
-	7750 4900 7750 5000
-Wire Wire Line
-	7850 5000 7750 5000
-Connection ~ 7750 5000
-Wire Wire Line
-	7750 5000 7750 5550
-Wire Wire Line
-	7400 4300 7400 5100
-Wire Wire Line
-	7400 5100 7850 5100
-Wire Wire Line
-	6900 4900 7250 4900
+	6950 5300 8000 5300
 $EndSCHEMATC

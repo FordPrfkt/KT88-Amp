@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Endstufe-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -61,12 +61,12 @@ $EndComp
 $Comp
 L Endstufe-rescue:ECC83 U2
 U 3 1 55C7EAAF
-P 8000 5450
-F 0 "U2" H 8130 5760 50  0000 C CNN
-F 1 "ECC83" H 8350 5150 50  0000 C CNN
-F 2 "Valve:Valve_ECC-83-1" H 8270 5050 50  0001 C CNN
-F 3 "" H 8000 5450 60  0000 C CNN
-	3    8000 5450
+P 5650 6300
+F 0 "U2" H 5780 6610 50  0000 C CNN
+F 1 "ECC83" H 6000 6000 50  0000 C CNN
+F 2 "Valve:Valve_ECC-83-1" H 5920 5900 50  0001 C CNN
+F 3 "" H 5650 6300 60  0000 C CNN
+	3    5650 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -94,12 +94,12 @@ $EndComp
 $Comp
 L Endstufe-rescue:ECC83 U1
 U 3 1 55C7ECD2
-P 8700 5450
-F 0 "U1" H 8830 5760 50  0000 C CNN
-F 1 "ECC82" H 9050 5150 50  0000 C CNN
-F 2 "Valve:Valve_ECC-83-1" H 8970 5050 50  0001 C CNN
-F 3 "" H 8700 5450 60  0000 C CNN
-	3    8700 5450
+P 6350 6300
+F 0 "U1" H 6480 6610 50  0000 C CNN
+F 1 "ECC82" H 6700 6000 50  0000 C CNN
+F 2 "Valve:Valve_ECC-83-1" H 6620 5900 50  0001 C CNN
+F 3 "" H 6350 6300 60  0000 C CNN
+	3    6350 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -358,34 +358,34 @@ $EndComp
 $Comp
 L Endstufe-rescue:R R2
 U 1 1 55C98434
-P 7750 1850
-F 0 "R2" V 7830 1850 50  0000 C CNN
-F 1 "220k" V 7750 1850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7680 1850 30  0001 C CNN
-F 3 "" H 7750 1850 30  0000 C CNN
-	1    7750 1850
+P 7800 1850
+F 0 "R2" V 7880 1850 50  0000 C CNN
+F 1 "220k" V 7800 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 1850 30  0001 C CNN
+F 3 "" H 7800 1850 30  0000 C CNN
+	1    7800 1850
 	-1   0    0    1   
 $EndComp
 $Comp
 L Endstufe-rescue:R R21
 U 1 1 55C984E2
-P 7750 3700
-F 0 "R21" V 7830 3700 50  0000 C CNN
-F 1 "220k" V 7750 3700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7680 3700 30  0001 C CNN
-F 3 "" H 7750 3700 30  0000 C CNN
-	1    7750 3700
+P 7800 3600
+F 0 "R21" V 7880 3600 50  0000 C CNN
+F 1 "220k" V 7800 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 3600 30  0001 C CNN
+F 3 "" H 7800 3600 30  0000 C CNN
+	1    7800 3600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Endstufe-rescue:R R7
 U 1 1 55C986BE
-P 7750 2300
-F 0 "R7" V 7830 2300 50  0000 C CNN
-F 1 "1M" V 7750 2300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7680 2300 30  0001 C CNN
-F 3 "" H 7750 2300 30  0000 C CNN
-	1    7750 2300
+P 7800 2300
+F 0 "R7" V 7880 2300 50  0000 C CNN
+F 1 "1M" V 7800 2300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 2300 30  0001 C CNN
+F 3 "" H 7800 2300 30  0000 C CNN
+	1    7800 2300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -402,12 +402,12 @@ $EndComp
 $Comp
 L Endstufe-rescue:CONN_2 P6
 U 1 1 55C9E932
-P 7250 6050
-F 0 "P6" V 7200 6050 40  0000 C CNN
-F 1 "6V3_DC" V 7300 6050 40  0000 C CNN
-F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 7250 6050 60  0001 C CNN
-F 3 "" H 7250 6050 60  0000 C CNN
-	1    7250 6050
+P 4900 6900
+F 0 "P6" V 4850 6900 40  0000 C CNN
+F 1 "6V3_DC" V 4950 6900 40  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 4900 6900 60  0001 C CNN
+F 3 "" H 4900 6900 60  0000 C CNN
+	1    4900 6900
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -558,38 +558,36 @@ $EndComp
 $Comp
 L Endstufe-rescue:R R17
 U 1 1 55CE6948
-P 7750 3250
-F 0 "R17" V 7830 3250 50  0000 C CNN
-F 1 "1M" V 7750 3250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7680 3250 30  0001 C CNN
-F 3 "" H 7750 3250 30  0000 C CNN
-	1    7750 3250
+P 7800 3100
+F 0 "R17" V 7880 3100 50  0000 C CNN
+F 1 "1M" V 7800 3100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 3100 30  0001 C CNN
+F 3 "" H 7800 3100 30  0000 C CNN
+	1    7800 3100
 	-1   0    0    1   
 $EndComp
 $Comp
 L Endstufe-rescue:C C5
 U 1 1 55CE6A58
-P 7950 1800
-F 0 "C5" H 7850 1900 50  0000 L CNN
+P 8050 1800
+F 0 "C5" H 7950 1900 50  0000 L CNN
 F 1 "68pF / 500V" H 7750 1700 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm" H 7988 1650 30  0001 C CNN
-F 3 "" H 7950 1800 60  0000 C CNN
-	1    7950 1800
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm" H 8088 1650 30  0001 C CNN
+F 3 "" H 8050 1800 60  0000 C CNN
+	1    8050 1800
 	-1   0    0    1   
 $EndComp
 $Comp
 L Endstufe-rescue:C C9
 U 1 1 55CE6B67
-P 7950 3700
-F 0 "C9" H 7850 3800 50  0000 L CNN
-F 1 "68pF / 500V" H 7600 3600 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 7988 3550 30  0001 C CNN
-F 3 "" H 7950 3700 60  0000 C CNN
-	1    7950 3700
+P 8050 3600
+F 0 "C9" H 7950 3700 50  0000 L CNN
+F 1 "68pF / 500V" H 7750 3450 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 8088 3450 30  0001 C CNN
+F 3 "" H 8050 3600 60  0000 C CNN
+	1    8050 3600
 	-1   0    0    1   
 $EndComp
-Text GLabel 7800 2650 2    60   Input ~ 0
--60V
 Text GLabel 6450 2650 2    60   Input ~ 0
 +300V
 Text GLabel 5100 2650 0    60   Input ~ 0
@@ -653,8 +651,8 @@ F 3 "" H 1850 3600 60  0000 C CNN
 	1    1850 3600
 	1    0    0    -1  
 $EndComp
-Text Notes 6050 4450 0    60   ~ 0
-Roederstein MKT 1813\n400 V DC
+Text Notes 6300 4550 0    60   ~ 0
+Roederstein\nMKT1813\n400 V DC
 $Comp
 L Endstufe-rescue:CONN_2 P7
 U 1 1 56BBDA5D
@@ -679,8 +677,6 @@ F 3 "" H 1550 6050 60  0000 C CNN
 $EndComp
 Text GLabel 1550 5800 2    60   Input ~ 0
 +450V
-Text GLabel 1850 7100 2    60   Input ~ 0
--60V
 Wire Wire Line
 	3500 2500 3500 2650
 Wire Wire Line
@@ -737,12 +733,12 @@ Wire Wire Line
 Wire Wire Line
 	5700 1050 6250 1050
 Wire Wire Line
-	6700 3950 7750 3950
+	6700 3950 7800 3950
 Wire Wire Line
 	6400 3950 6250 3950
 Connection ~ 6250 3950
 Wire Wire Line
-	6700 1600 7750 1600
+	6700 1600 7800 1600
 Wire Wire Line
 	6400 1600 6250 1600
 Connection ~ 6250 1600
@@ -763,7 +759,7 @@ Wire Wire Line
 	6700 1600 6700 1350
 Wire Wire Line
 	6400 3700 6400 3950
-Connection ~ 7750 1600
+Connection ~ 7800 1600
 Wire Wire Line
 	9750 3900 9150 3900
 Wire Wire Line
@@ -805,16 +801,16 @@ Wire Wire Line
 Wire Wire Line
 	10400 3800 10550 3800
 Wire Wire Line
-	8800 5950 8800 5900
+	6450 6800 6450 6750
 Wire Wire Line
-	7900 5950 7900 5900
-Connection ~ 7900 5950
+	5550 6800 5550 6750
+Connection ~ 5550 6800
 Wire Wire Line
-	8100 5950 8100 5900
-Connection ~ 8100 5950
+	5750 6800 5750 6750
+Connection ~ 5750 6800
 Wire Wire Line
-	8600 5950 8600 5900
-Connection ~ 8600 5950
+	6250 6800 6250 6750
+Connection ~ 6250 6800
 Wire Wire Line
 	8300 1500 8250 1500
 Wire Wire Line
@@ -870,37 +866,26 @@ Wire Wire Line
 	9150 4450 9150 3900
 Connection ~ 9150 3900
 Wire Wire Line
-	7950 1650 7950 1600
-Connection ~ 7950 1600
+	8050 1650 8050 1600
 Wire Wire Line
-	7650 2050 7750 2050
+	8050 2050 8050 1950
 Wire Wire Line
-	7950 2050 7950 1950
+	7800 2000 7800 2050
+Connection ~ 7800 2050
 Wire Wire Line
-	7750 2000 7750 2050
-Connection ~ 7750 2050
+	7800 3250 7800 3350
+Connection ~ 7800 3350
 Wire Wire Line
-	7750 3400 7750 3450
-Wire Wire Line
-	7650 3450 7750 3450
-Connection ~ 7750 3450
-Wire Wire Line
-	7950 3450 7950 3550
-Wire Wire Line
-	7750 2450 7750 2650
-Wire Wire Line
-	7800 2650 7750 2650
-Connection ~ 7750 2650
+	8050 3350 8050 3450
 Wire Wire Line
 	6700 3700 6700 3950
 Wire Wire Line
-	7750 1700 7750 1600
+	7800 1700 7800 1600
 Wire Wire Line
-	7750 3850 7750 3950
-Connection ~ 7750 3950
+	7800 3750 7800 3950
+Connection ~ 7800 3950
 Wire Wire Line
-	7950 3850 7950 3950
-Connection ~ 7950 3950
+	8050 3750 8050 3950
 Wire Wire Line
 	6450 2650 6250 2650
 Wire Wire Line
@@ -930,18 +915,18 @@ Wire Wire Line
 	8350 3050 8900 3050
 Connection ~ 8350 3050
 Wire Wire Line
-	7600 5950 7900 5950
+	5250 6800 5550 6800
 Wire Wire Line
-	8700 6150 8700 5900
+	6350 7000 6350 6750
 Wire Wire Line
-	8000 6150 8000 5900
-Connection ~ 8000 6150
+	5650 7000 5650 6750
+Connection ~ 5650 7000
 Wire Wire Line
 	1200 2200 1200 2400
 Wire Wire Line
 	900  2200 1200 2200
 Wire Notes Line
-	7200 4800 7200 1050
+	6900 4750 6900 1000
 Wire Notes Line
 	2900 1000 2900 4900
 Wire Wire Line
@@ -961,15 +946,15 @@ F 3 "" H 1300 7000 60  0000 C CNN
 	1    1300 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 6700 2    60   Input ~ 0
+Text GLabel 1450 6900 2    60   Input ~ 0
 +300V
-Text GLabel 1850 6500 2    60   Input ~ 0
+Text GLabel 1850 6700 2    60   Input ~ 0
 +240V
-Text GLabel 1850 6900 2    60   Input ~ 0
+Text GLabel 1450 6500 2    60   Input ~ 0
 -120V
-Text GLabel 7650 2050 0    60   Input ~ 0
+Text GLabel 7150 2050 0    60   Input ~ 0
 UG_1
-Text GLabel 7650 3450 0    60   Input ~ 0
+Text GLabel 7150 3350 0    60   Input ~ 0
 UG_2
 Text GLabel 9650 2050 0    60   Output ~ 0
 Bias_1
@@ -984,15 +969,15 @@ Connection ~ 9750 3450
 Text Notes 7250 4750 0    60   ~ 12
 KT88 Endstufe
 Text Notes 3000 4750 0    60   ~ 12
-ECC83 Vorstufe
+ECC83 Phasenumkehr / ECC82 Treiberstufe
 Text Notes 800  4750 0    60   ~ 12
 Eingang / Knackunterdrückung
 Text Notes 10400 4750 0    60   ~ 12
 Gegenkopplung
 Text Notes 10100 2200 0    60   ~ 12
 Ausgang / Übertrager
-Text Notes 4300 4350 0    60   ~ 0
-Roederstein MKT 1813\n400 V DC
+Text Notes 4550 4450 0    60   ~ 0
+Roederstein \nMKT 1813\n400 V DC
 Text Notes 4600 1200 0    60   ~ 0
 Roederstein MKT 1813\n400 V DC
 Text Notes 6000 1000 0    60   ~ 0
@@ -1011,64 +996,57 @@ $EndComp
 $Comp
 L Endstufe-rescue:R R8
 U 1 1 581572BC
-P 4150 6500
-F 0 "R8" V 4230 6500 50  0000 C CNN
-F 1 "10k" V 4150 6500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 6500 50  0001 C CNN
-F 3 "" H 4150 6500 50  0000 C CNN
-	1    4150 6500
+P 7350 2050
+F 0 "R8" V 7430 2050 50  0000 C CNN
+F 1 "10k" V 7350 2050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 2050 50  0001 C CNN
+F 3 "" H 7350 2050 50  0000 C CNN
+	1    7350 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L Endstufe-rescue:R R14
 U 1 1 581573FA
-P 4150 6800
-F 0 "R14" V 4230 6800 50  0000 C CNN
-F 1 "10k" V 4150 6800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4080 6800 50  0001 C CNN
-F 3 "" H 4150 6800 50  0000 C CNN
-	1    4150 6800
+P 7350 3350
+F 0 "R14" V 7430 3350 50  0000 C CNN
+F 1 "10k" V 7350 3350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 3350 50  0001 C CNN
+F 3 "" H 7350 3350 50  0000 C CNN
+	1    7350 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L Endstufe-rescue:C_Small C14
 U 1 1 58157B31
-P 3400 7150
-F 0 "C14" H 3410 7220 50  0000 L CNN
-F 1 "10µF / 100V" H 3410 7070 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" H 3400 7150 50  0001 C CNN
-F 3 "" H 3400 7150 50  0000 C CNN
-	1    3400 7150
+P 7600 2250
+F 0 "C14" V 7500 2150 50  0000 L CNN
+F 1 "10µF / 100V" V 7400 1800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" H 7600 2250 50  0001 C CNN
+F 3 "" H 7600 2250 50  0000 C CNN
+	1    7600 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Endstufe-rescue:C_Small C15
 U 1 1 58157DB7
-P 3950 7150
-F 0 "C15" H 3960 7220 50  0000 L CNN
-F 1 "10µF / 100V" H 3960 7070 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" H 3950 7150 50  0001 C CNN
-F 3 "" H 3950 7150 50  0000 C CNN
-	1    3950 7150
+P 7600 3550
+F 0 "C15" V 7500 3450 50  0000 L CNN
+F 1 "10µF / 100V" V 7400 3100 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" H 7600 3550 50  0001 C CNN
+F 3 "" H 7600 3550 50  0000 C CNN
+	1    7600 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4400 6500 2    60   Output ~ 0
+Text GLabel 3400 6500 2    60   Output ~ 0
 UG_1
-Text GLabel 4400 6800 2    60   Output ~ 0
+Text GLabel 3400 6800 2    60   Output ~ 0
 UG_2
-Text GLabel 4750 6400 2    60   Output ~ 0
+Text GLabel 3700 6400 2    60   Output ~ 0
 Bias_1
-Text GLabel 4750 6900 2    60   Output ~ 0
+Text GLabel 3700 6900 2    60   Output ~ 0
 Bias_2
 Wire Wire Line
-	3050 6500 3400 6500
-Wire Wire Line
-	4300 6500 4400 6500
-Wire Wire Line
-	3050 6600 4750 6600
-Wire Wire Line
-	3400 7050 3400 6500
-Connection ~ 3400 6500
+	3050 6600 3700 6600
 $Comp
 L Endstufe-rescue:GND #PWR012
 U 1 1 58159752
@@ -1080,36 +1058,21 @@ F 3 "" H 3150 7300 50  0000 C CNN
 	1    3150 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4750 6600 2    60   Output ~ 0
+Text GLabel 3700 6600 2    60   Output ~ 0
 -60V
 Wire Wire Line
-	3050 6900 4750 6900
-$Comp
-L Endstufe-rescue:GND #PWR013
-U 1 1 58159B20
-P 3400 7300
-F 0 "#PWR013" H 3400 7050 50  0001 C CNN
-F 1 "GND" H 3400 7150 50  0000 C CNN
-F 2 "" H 3400 7300 50  0000 C CNN
-F 3 "" H 3400 7300 50  0000 C CNN
-	1    3400 7300
-	1    0    0    -1  
-$EndComp
+	3050 6900 3700 6900
 $Comp
 L Endstufe-rescue:GND #PWR014
 U 1 1 58159BDF
-P 3950 7300
-F 0 "#PWR014" H 3950 7050 50  0001 C CNN
-F 1 "GND" H 3950 7150 50  0000 C CNN
-F 2 "" H 3950 7300 50  0000 C CNN
-F 3 "" H 3950 7300 50  0000 C CNN
-	1    3950 7300
+P 7600 3750
+F 0 "#PWR014" H 7600 3500 50  0001 C CNN
+F 1 "GND" H 7600 3600 50  0000 C CNN
+F 2 "" H 7600 3750 50  0000 C CNN
+F 3 "" H 7600 3750 50  0000 C CNN
+	1    7600 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 7300 3400 7250
-Wire Wire Line
-	3950 7300 3950 7250
 Wire Notes Line
 	5150 1100 5150 1450
 Wire Notes Line
@@ -1137,21 +1100,14 @@ Wire Wire Line
 Wire Wire Line
 	2150 2100 2500 2100
 Wire Wire Line
-	4750 6400 3050 6400
-Wire Wire Line
-	4300 6800 4400 6800
-Wire Wire Line
-	3050 6800 3950 6800
-Wire Wire Line
-	3950 7050 3950 6800
-Connection ~ 3950 6800
+	3700 6400 3050 6400
 Wire Wire Line
 	3050 6700 3150 6700
 Wire Wire Line
 	3150 6700 3150 7300
 Wire Wire Line
-	7600 6150 8000 6150
-Text Notes 7000 6400 0    60   ~ 12
+	5250 7000 5650 7000
+Text Notes 4650 7250 0    60   ~ 12
 Heizung ECC83
 Text Notes 1500 1850 0    60   ~ 0
 Roederstein MKT 1813\n400 V DC
@@ -1191,20 +1147,6 @@ F 3 "" H 1000 6600 50  0001 C CNN
 	1    1000 6600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 6700 1850 6700
-Wire Wire Line
-	1300 6400 1200 6400
-Wire Wire Line
-	1850 6500 1200 6500
-Wire Wire Line
-	1300 6400 1300 6600
-Wire Wire Line
-	1200 6600 1300 6600
-Connection ~ 1300 6600
-Wire Wire Line
-	1200 6800 1300 6800
-Connection ~ 1300 6800
 $Comp
 L Endstufe-rescue:Conn_01x02 J3
 U 1 1 5A92D98F
@@ -1244,7 +1186,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 2650 9750 3000
 Wire Wire Line
-	7750 1600 7950 1600
+	7800 1600 8050 1600
 Wire Wire Line
 	2500 2100 3300 2100
 Wire Wire Line
@@ -1256,11 +1198,11 @@ Wire Wire Line
 Wire Wire Line
 	10550 4400 10550 4100
 Wire Wire Line
-	7900 5950 8100 5950
+	5550 6800 5750 6800
 Wire Wire Line
-	8100 5950 8600 5950
+	5750 6800 6250 6800
 Wire Wire Line
-	8600 5950 8800 5950
+	6250 6800 6450 6800
 Wire Wire Line
 	10550 3800 10700 3800
 Wire Wire Line
@@ -1274,21 +1216,15 @@ Wire Wire Line
 Wire Wire Line
 	9150 3900 8900 3900
 Wire Wire Line
-	7950 1600 8050 1600
+	7800 2050 8050 2050
 Wire Wire Line
-	7750 2050 7950 2050
+	7800 2050 7800 2150
 Wire Wire Line
-	7750 2050 7750 2150
+	7800 3350 7800 3450
 Wire Wire Line
-	7750 3450 7750 3550
+	7800 3350 8050 3350
 Wire Wire Line
-	7750 3450 7950 3450
-Wire Wire Line
-	7750 2650 7750 3100
-Wire Wire Line
-	7750 3950 7950 3950
-Wire Wire Line
-	7950 3950 8050 3950
+	7800 3950 8050 3950
 Wire Wire Line
 	4700 1550 4800 1550
 Wire Wire Line
@@ -1306,21 +1242,11 @@ Wire Wire Line
 Wire Wire Line
 	8350 3050 8350 3800
 Wire Wire Line
-	8000 6150 8700 6150
+	5650 7000 6350 7000
 Wire Wire Line
 	9750 2050 9750 2150
 Wire Wire Line
 	9750 3450 9750 3900
-Wire Wire Line
-	3400 6500 4000 6500
-Wire Wire Line
-	3950 6800 4000 6800
-Wire Wire Line
-	1300 6600 1300 6800
-Wire Wire Line
-	1300 6800 1300 7000
-Wire Wire Line
-	1200 6900 1850 6900
 NoConn ~ 1950 2900
 Wire Wire Line
 	1750 2100 1850 2100
@@ -1413,9 +1339,9 @@ Wire Notes Line
 Wire Notes Line
 	10150 4100 10350 4100
 Wire Notes Line
-	7800 4000 7800 3700
+	7900 4000 7900 3600
 Wire Notes Line
-	7800 3700 7850 3700
+	7900 3600 7950 3600
 Wire Notes Line
 	1850 1850 1850 2050
 Wire Notes Line
@@ -1423,9 +1349,9 @@ Wire Notes Line
 Wire Notes Line
 	8600 900  8600 1000
 Wire Notes Line
-	8150 2100 8150 1800
+	8250 2100 8250 1800
 Wire Notes Line
-	8150 1800 8050 1800
+	8250 1800 8150 1800
 Text Notes 8950 2900 0    60   ~ 12
 Heizung\nKT88
 Wire Notes Line
@@ -1438,4 +1364,71 @@ Text Notes 1000 7600 0    60   ~ 12
 HV Eingang
 Text Notes 3250 7650 0    60   ~ 12
 Zu Bias-Platine
+Wire Wire Line
+	7600 3450 7600 3350
+Wire Wire Line
+	7600 3750 7600 3650
+Wire Wire Line
+	3050 6800 3400 6800
+Wire Wire Line
+	3050 6500 3400 6500
+Wire Wire Line
+	7600 2400 7600 2350
+$Comp
+L Endstufe-rescue:GND #PWR013
+U 1 1 58159B20
+P 7600 2400
+F 0 "#PWR013" H 7600 2150 50  0001 C CNN
+F 1 "GND" H 7600 2250 50  0000 C CNN
+F 2 "" H 7600 2400 50  0000 C CNN
+F 3 "" H 7600 2400 50  0000 C CNN
+	1    7600 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 2800 0    60   Input ~ 0
+-60V
+Wire Wire Line
+	1850 6700 1200 6700
+Wire Wire Line
+	1450 6900 1200 6900
+Wire Wire Line
+	1450 6500 1200 6500
+Wire Wire Line
+	1200 6600 1300 6600
+Wire Wire Line
+	1300 6600 1300 6800
+Wire Wire Line
+	1200 6800 1300 6800
+Connection ~ 1300 6800
+Wire Wire Line
+	1300 6800 1300 7000
+Text GLabel 1850 6400 2    60   Input ~ 0
+-60V
+Wire Wire Line
+	1850 6400 1200 6400
+Wire Wire Line
+	7800 2450 7800 2800
+Wire Wire Line
+	7650 2800 7800 2800
+Connection ~ 7800 2800
+Wire Wire Line
+	7800 2800 7800 2950
+Wire Wire Line
+	7600 3350 7800 3350
+Wire Wire Line
+	7600 3350 7500 3350
+Connection ~ 7600 3350
+Wire Wire Line
+	7200 3350 7150 3350
+Wire Wire Line
+	7500 2050 7600 2050
+Wire Wire Line
+	7200 2050 7150 2050
+Wire Wire Line
+	7600 2150 7600 2050
+Connection ~ 7600 2050
+Wire Wire Line
+	7600 2050 7800 2050
+Text Notes 7050 3050 0    60   ~ 12
+Gitter-\nVorspannung
 $EndSCHEMATC

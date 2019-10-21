@@ -19,7 +19,7 @@ L 6V3_Heizung-rescue:CONN_2-borniers P1
 U 1 1 55B68EB1
 P 1400 1350
 F 0 "P1" V 1350 1350 40  0000 C CNN
-F 1 "6V3_AC" V 1450 1350 40  0000 C CNN
+F 1 "7V5_AC" V 1450 1350 40  0000 C CNN
 F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 1400 1350 60  0001 C CNN
 F 3 "" H 1400 1350 60  0000 C CNN
 	1    1400 1350
@@ -119,7 +119,7 @@ U 1 1 55B69C12
 P 3550 1500
 F 0 "C10" H 3575 1600 50  0000 L CNN
 F 1 "33000µF/16V" H 3575 1400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 3588 1350 30  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 3588 1350 30  0001 C CNN
 F 3 "" H 3550 1500 60  0000 C CNN
 	1    3550 1500
 	1    0    0    -1  
@@ -186,23 +186,12 @@ Connection ~ 3550 1350
 $Comp
 L power:+12V #PWR03
 U 1 1 55B6FB5D
-P 4000 4250
-F 0 "#PWR03" H 4000 4200 20  0001 C CNN
-F 1 "+12V" H 4000 4350 30  0000 C CNN
-F 2 "" H 4000 4250 60  0000 C CNN
-F 3 "" H 4000 4250 60  0000 C CNN
-	1    4000 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 6V3_Heizung-rescue:GND-RESCUE-6V3_Heizung #PWR04
-U 1 1 55B6FB63
-P 4000 5350
-F 0 "#PWR04" H 4000 5350 30  0001 C CNN
-F 1 "GND" H 4000 5280 30  0001 C CNN
-F 2 "" H 4000 5350 60  0000 C CNN
-F 3 "" H 4000 5350 60  0000 C CNN
-	1    4000 5350
+P 2750 4500
+F 0 "#PWR03" H 2750 4450 20  0001 C CNN
+F 1 "+12V" H 2750 4600 30  0000 C CNN
+F 2 "" H 2750 4500 60  0000 C CNN
+F 3 "" H 2750 4500 60  0000 C CNN
+	1    2750 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -249,19 +238,6 @@ F 3 "" H 5600 5450 60  0000 C CNN
 	1    5600 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C5
-U 1 1 55B6FB87
-P 4350 4450
-F 0 "C5" H 4375 4550 50  0000 L CNN
-F 1 "100nF" H 4375 4350 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 4388 4300 30  0001 C CNN
-F 3 "" H 4350 4450 60  0000 C CNN
-	1    4350 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4600 4950 4750 4950
 Wire Wire Line
 	4750 5050 4750 4950
 Connection ~ 4750 4950
@@ -271,22 +247,6 @@ Wire Wire Line
 	4750 5500 4550 5500
 Wire Wire Line
 	4250 5500 3600 5500
-Wire Wire Line
-	4000 4250 4000 4300
-Wire Wire Line
-	4350 4300 4000 4300
-Connection ~ 4000 4300
-$Comp
-L 6V3_Heizung-rescue:GND-RESCUE-6V3_Heizung #PWR05
-U 1 1 55B6FB97
-P 4350 4600
-F 0 "#PWR05" H 4350 4600 30  0001 C CNN
-F 1 "GND" H 4350 4530 30  0001 C CNN
-F 2 "" H 4350 4600 60  0000 C CNN
-F 3 "" H 4350 4600 60  0000 C CNN
-	1    4350 4600
-	1    0    0    -1  
-$EndComp
 $Comp
 L 6V3_Heizung-rescue:GND-RESCUE-6V3_Heizung #PWR06
 U 1 1 55B6FB9D
@@ -479,8 +439,6 @@ Wire Wire Line
 	1800 2550 1800 2650
 Connection ~ 1800 2650
 Wire Wire Line
-	3450 4850 3600 4850
-Wire Wire Line
 	1800 2650 1950 2650
 Wire Wire Line
 	1800 2850 1800 3050
@@ -533,8 +491,6 @@ F 3 "" H 5700 3250 60  0000 C CNN
 	1    5700 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 2750 4850 2750
 Wire Wire Line
 	4850 2850 4850 2750
 Connection ~ 4850 2750
@@ -663,28 +619,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 1350 5700 2350
 $Comp
-L 6V3_Heizung-rescue:TL072-RESCUE-6V3_Heizung U1
-U 2 1 55C699E6
-P 4100 4950
-F 0 "U1" H 4050 5150 60  0000 L CNN
-F 1 "TL072" H 4050 4700 60  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4100 4950 60  0001 C CNN
-F 3 "" H 4100 4950 60  0000 C CNN
-	2    4100 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 6V3_Heizung-rescue:TL072-RESCUE-6V3_Heizung U1
-U 1 1 55C69AE5
-P 4200 2750
-F 0 "U1" H 4150 2950 60  0000 L CNN
-F 1 "TL072" H 4150 2500 60  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4200 2750 60  0001 C CNN
-F 3 "" H 4200 2750 60  0000 C CNN
-	1    4200 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG016
 U 1 1 55CD44FA
 P 1950 2650
@@ -740,8 +674,6 @@ Wire Wire Line
 	3550 1350 5700 1350
 Wire Wire Line
 	4750 4950 4900 4950
-Wire Wire Line
-	4000 4300 4000 4550
 Wire Wire Line
 	3600 5500 3600 5700
 Wire Wire Line
@@ -818,4 +750,85 @@ Connection ~ 5600 5250
 Wire Wire Line
 	5700 2950 5700 3050
 Connection ~ 5700 3050
+$Comp
+L Device:C C5
+U 1 1 55B6FB87
+P 2500 4950
+F 0 "C5" H 2525 5050 50  0000 L CNN
+F 1 "100nF" H 2525 4850 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2538 4800 30  0001 C CNN
+F 3 "" H 2500 4950 60  0000 C CNN
+	1    2500 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L 6V3_Heizung-rescue:GND-RESCUE-6V3_Heizung #PWR0101
+U 1 1 5DA809B9
+P 2750 5350
+F 0 "#PWR0101" H 2750 5350 30  0001 C CNN
+F 1 "GND" H 2750 5280 30  0001 C CNN
+F 2 "" H 2750 5350 60  0000 C CNN
+F 3 "" H 2750 5350 60  0000 C CNN
+	1    2750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 5DA97C8C
+P 4000 2750
+F 0 "U1" H 4000 3117 50  0000 C CNN
+F 1 "TL072" H 4000 3026 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4000 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4000 2750 50  0001 C CNN
+	1    4000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 5DA9C773
+P 4050 4950
+F 0 "U1" H 4050 5317 50  0000 C CNN
+F 1 "TL072" H 4050 5226 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4050 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4050 4950 50  0001 C CNN
+	2    4050 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 5DA9FE4C
+P 2850 4950
+F 0 "U1" H 2808 4996 50  0000 L CNN
+F 1 "TL072" H 2808 4905 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2850 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2850 4950 50  0001 C CNN
+	3    2850 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4650 2750 4600
+Wire Wire Line
+	2750 5350 2750 5300
+Wire Wire Line
+	2500 4800 2500 4600
+Wire Wire Line
+	2500 4600 2750 4600
+Connection ~ 2750 4600
+Wire Wire Line
+	2750 4600 2750 4500
+Wire Wire Line
+	2500 5100 2500 5300
+Wire Wire Line
+	2500 5300 2750 5300
+Connection ~ 2750 5300
+Wire Wire Line
+	2750 5300 2750 5250
+Wire Wire Line
+	3750 5050 3600 5050
+Wire Wire Line
+	3450 4850 3750 4850
+Wire Wire Line
+	4350 4950 4750 4950
+Wire Wire Line
+	4300 2750 4850 2750
 $EndSCHEMATC
