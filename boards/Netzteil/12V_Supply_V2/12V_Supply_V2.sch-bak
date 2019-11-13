@@ -218,7 +218,7 @@ U 1 1 55C5D9C9
 P 2100 1200
 F 0 "F1" H 2060 1260 50  0000 L CNN
 F 1 "3A Slow" H 1980 1140 50  0000 L CNN
-F 2 "w_misc_comp:fuse_holder_CQ-2" H 2100 1200 60  0001 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_lateral_Type-II" H 2100 1200 60  0001 C CNN
 F 3 "" H 2100 1200 60  0000 C CNN
 	1    2100 1200
 	1    0    0    1   
