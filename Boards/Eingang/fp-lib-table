@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name w_conn_av)(type KiCad)(uri "D:\\Eigene Dateien\\Dokumente\\Projekte\\KiCad\\Kicad_Lib\\Footprint\\w_conn_av.pretty")(options "")(descr ""))
-  (lib (name Reed)(type Legacy)(uri D:\KiCadLibs\Reed.mod)(options "")(descr ""))
-)
