@@ -147,8 +147,6 @@ Wire Wire Line
 Connection ~ 2300 1600
 Connection ~ 1900 1600
 Wire Wire Line
-	950  1050 1350 1050
-Wire Wire Line
 	1350 1050 1350 700 
 Connection ~ 1600 700 
 Wire Wire Line
@@ -1479,18 +1477,20 @@ Wire Wire Line
 	6550 1550 6700 1550
 Connection ~ 6550 2000
 $Comp
-L Device:Fuse F?
+L Device:Fuse F1
 U 1 1 5DCA737A
-P 1150 1250
-F 0 "F?" V 953 1250 50  0000 C CNN
-F 1 "Fuse" V 1044 1250 50  0000 C CNN
-F 2 "" V 1080 1250 50  0001 C CNN
-F 3 "~" H 1150 1250 50  0001 C CNN
-	1    1150 1250
+P 1150 1050
+F 0 "F1" V 953 1050 50  0000 C CNN
+F 1 "Fuse" V 1044 1050 50  0000 C CNN
+F 2 "w_misc_comp:fuse_holder_CQ-2" V 1080 1050 50  0001 C CNN
+F 3 "~" H 1150 1050 50  0001 C CNN
+	1    1150 1050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1300 1250 1350 1250
+	950  1250 1350 1250
 Wire Wire Line
-	1000 1250 950  1250
+	1300 1050 1350 1050
+Wire Wire Line
+	1000 1050 950  1050
 $EndSCHEMATC

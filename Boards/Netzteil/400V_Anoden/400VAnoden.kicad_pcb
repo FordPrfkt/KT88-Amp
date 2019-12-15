@@ -960,7 +960,7 @@
       (net 25 "Net-(RLY2-Pad12)"))
     (pad 1 thru_hole circle (at -11.5 3.75 90) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask)
       (net 23 "Net-(D11-Pad1)"))
-    (model walter/relay/relay_40.51.wrl
+    (model C:/Users/danie/Documents/Projekte/KiCad/Kicad_Lib/walter/relay/relay_40.51.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5259,7 +5259,7 @@
       (net 17 "Net-(F1-Pad1)"))
     (pad 2 thru_hole circle (at 0 10.8839 90) (size 3.50012 3.50012) (drill 1.80086) (layers *.Cu *.Mask F.SilkS)
       (net 1 "Net-(C1-Pad1)"))
-    (model walter/misc_comp/fuse_cq-200c.wrl
+    (model C:/Users/danie/Documents/Projekte/KiCad/Kicad_Lib/walter/misc_comp/fuse_cq-200c.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5289,7 +5289,7 @@
       (net 18 "Net-(F3-Pad1)"))
     (pad 2 thru_hole circle (at 0 10.8839 180) (size 3.50012 3.50012) (drill 1.80086) (layers *.Cu *.Mask F.SilkS)
       (net 9 "Net-(C11-Pad1)"))
-    (model walter/misc_comp/fuse_cq-200c.wrl
+    (model C:/Users/danie/Documents/Projekte/KiCad/Kicad_Lib/walter/misc_comp/fuse_cq-200c.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
