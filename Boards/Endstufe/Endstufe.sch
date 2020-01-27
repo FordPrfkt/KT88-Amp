@@ -1108,7 +1108,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 7000 5650 7000
 Text Notes 4650 7250 0    60   ~ 12
-Heizung ECC83
+Heizung ECC82/83
 Text Notes 1500 1850 0    60   ~ 0
 Roederstein MKT 1813\n400 V DC
 Text Notes 8600 950  0    60   ~ 0

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Endstufe-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -969,7 +969,7 @@ Connection ~ 9750 3450
 Text Notes 7250 4750 0    60   ~ 12
 KT88 Endstufe
 Text Notes 3000 4750 0    60   ~ 12
-ECC83 Vorstufe
+ECC83 Phasenumkehr / ECC82 Treiberstufe
 Text Notes 800  4750 0    60   ~ 12
 Eingang / Knackunterdrückung
 Text Notes 10400 4750 0    60   ~ 12
