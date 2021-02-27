@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Anoden_Stabi-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -575,4 +574,31 @@ Wire Wire Line
 Connection ~ 6950 5300
 Wire Wire Line
 	6950 5300 8000 5300
+$Comp
+L Device:R R9
+U 1 1 603BF004
+P 6700 5500
+F 0 "R9" V 6780 5500 50  0000 C CNN
+F 1 "10k" V 6700 5500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 5500 30  0001 C CNN
+F 3 "" H 6700 5500 30  0000 C CNN
+	1    6700 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Anoden_Stabi-rescue:GND-power1 #PWR0101
+U 1 1 603BF85C
+P 6700 5750
+F 0 "#PWR0101" H 6700 5500 50  0001 C CNN
+F 1 "GND" H 6700 5600 50  0000 C CNN
+F 2 "" H 6700 5750 60  0000 C CNN
+F 3 "" H 6700 5750 60  0000 C CNN
+	1    6700 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5350 6700 5300
+Connection ~ 6700 5300
+Wire Wire Line
+	6700 5750 6700 5650
 $EndSCHEMATC

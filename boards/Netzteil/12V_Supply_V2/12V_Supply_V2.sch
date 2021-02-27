@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:12V_Supply_V2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1165,7 +1164,7 @@ Connection ~ 8650 4700
 Wire Wire Line
 	2650 2850 2650 4700
 Wire Wire Line
-	8650 2950 8650 4700
+	8650 2950 8650 3450
 $Comp
 L Device:LED D12
 U 1 1 5DF545F1
@@ -1208,4 +1207,33 @@ Wire Wire Line
 Connection ~ 8400 1600
 Wire Wire Line
 	8400 1600 8650 1600
+$Comp
+L 12V_Supply_V2-rescue:CONN_2 P8
+U 1 1 5F8B2CA2
+P 9300 3550
+F 0 "P8" V 9250 3550 40  0000 C CNN
+F 1 "12V_DC_4" V 9350 3550 40  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9300 3550 60  0001 C CNN
+F 3 "" H 9300 3550 60  0000 C CNN
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3450 8650 3450
+Connection ~ 8650 3450
+Wire Wire Line
+	8650 3450 8650 4700
+$Comp
+L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR0114
+U 1 1 5F8BA282
+P 8950 3850
+F 0 "#PWR0114" H 8950 3850 30  0001 C CNN
+F 1 "GND" H 8950 3780 30  0001 C CNN
+F 2 "" H 8950 3850 60  0000 C CNN
+F 3 "" H 8950 3850 60  0000 C CNN
+	1    8950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3850 8950 3650
 $EndSCHEMATC
