@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "KT88 Bias Board"
+Date "2021-03-29"
+Rev "1.0"
+Comp "Daniel Walter"
+Comment1 "fordprfkt@googlemail.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -176,7 +176,7 @@ F 1 "LED_ZW_R1" H 6100 2250 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 6100 2350 50  0001 C CNN
 F 3 "" H 6100 2350 50  0000 C CNN
 	1    6100 2350
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12V #PWR023
@@ -367,7 +367,7 @@ F 1 "LED_ZW_R2" H 6100 4900 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 6100 5000 50  0001 C CNN
 F 3 "" H 6100 5000 50  0000 C CNN
 	1    6100 5000
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12V #PWR025

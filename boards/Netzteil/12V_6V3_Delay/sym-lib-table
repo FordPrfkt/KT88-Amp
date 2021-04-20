@@ -6,4 +6,5 @@
   (lib (name w_transistor)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_transistor.lib")(options "")(descr ""))
   (lib (name w_vacuum)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/w_vacuum.lib")(options "")(descr ""))
   (lib (name borniers)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers.lib")(options "")(descr ""))
+  (lib (name 12V_Supply_V2-rescue)(type Legacy)(uri C:/Users/danie/Documents/Projekte/KT88-Amp/boards/Netzteil/12V_Supply_V2/12V_Supply_V2-rescue.lib)(options "")(descr ""))
 )
