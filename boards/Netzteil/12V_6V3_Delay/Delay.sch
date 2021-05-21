@@ -530,11 +530,12 @@ Wire Wire Line
 Text Notes 2800 1900 0    50   ~ 0
 5,4V @ 12V
 $Comp
-L 12V_Supply_V2-rescue:CONN_2 P?
+L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P?
 U 1 1 606D5E5B
 P 9350 4850
 AR Path="/6073880F/606D5E5B" Ref="P?"  Part="1" 
 AR Path="/6073B0D9/606D5E5B" Ref="P11"  Part="1" 
+AR Path="/606D5E5B" Ref="P11"  Part="1" 
 F 0 "P11" V 9300 4850 40  0000 C CNN
 F 1 "Relais" V 9400 4850 40  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9350 4850 60  0001 C CNN
@@ -543,11 +544,12 @@ F 3 "" H 9350 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_Supply_V2-rescue:CONN_2 P?
+L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P?
 U 1 1 606D5E61
 P 9350 5250
 AR Path="/6073880F/606D5E61" Ref="P?"  Part="1" 
 AR Path="/6073B0D9/606D5E61" Ref="P12"  Part="1" 
+AR Path="/606D5E61" Ref="P12"  Part="1" 
 F 0 "P12" V 9300 5250 40  0000 C CNN
 F 1 "Relais" V 9400 5250 40  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9350 5250 60  0001 C CNN
@@ -612,7 +614,7 @@ AR Path="/6073B0D9/606D5E8B" Ref="U4"  Part="3"
 F 0 "U4" H 2108 4696 50  0000 L CNN
 F 1 "LM393" H 2108 4605 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2150 4650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm393-n.pdf" H 2150 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 2150 4650 50  0001 C CNN
 	3    2150 4650
 	1    0    0    -1  
 $EndComp
@@ -827,11 +829,12 @@ Wire Wire Line
 Wire Wire Line
 	2050 5000 2050 4950
 $Comp
-L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR?
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 606D5F43
 P 2050 5100
 AR Path="/6073880F/606D5F43" Ref="#PWR?"  Part="1" 
 AR Path="/6073B0D9/606D5F43" Ref="#PWR0132"  Part="1" 
+AR Path="/606D5F43" Ref="#PWR0132"  Part="1" 
 F 0 "#PWR0132" H 2050 5100 30  0001 C CNN
 F 1 "GND" H 2050 5030 30  0001 C CNN
 F 2 "" H 2050 5100 60  0000 C CNN
@@ -843,11 +846,12 @@ Wire Wire Line
 	2050 5100 2050 5000
 Connection ~ 2050 5000
 $Comp
-L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR?
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 606D5F52
 P 5350 5800
 AR Path="/6073880F/606D5F52" Ref="#PWR?"  Part="1" 
 AR Path="/6073B0D9/606D5F52" Ref="#PWR0134"  Part="1" 
+AR Path="/606D5F52" Ref="#PWR0134"  Part="1" 
 F 0 "#PWR0134" H 5350 5800 30  0001 C CNN
 F 1 "GND" H 5350 5730 30  0001 C CNN
 F 2 "" H 5350 5800 60  0000 C CNN
@@ -858,11 +862,12 @@ $EndComp
 Wire Wire Line
 	5350 5800 5350 5650
 $Comp
-L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR?
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 606D5F59
 P 7750 5850
 AR Path="/6073880F/606D5F59" Ref="#PWR?"  Part="1" 
 AR Path="/6073B0D9/606D5F59" Ref="#PWR0135"  Part="1" 
+AR Path="/606D5F59" Ref="#PWR0135"  Part="1" 
 F 0 "#PWR0135" H 7750 5850 30  0001 C CNN
 F 1 "GND" H 7750 5780 30  0001 C CNN
 F 2 "" H 7750 5850 60  0000 C CNN
@@ -873,11 +878,12 @@ $EndComp
 Wire Wire Line
 	7750 5850 7750 5750
 $Comp
-L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR?
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 606D5F60
 P 8250 5850
 AR Path="/6073880F/606D5F60" Ref="#PWR?"  Part="1" 
 AR Path="/6073B0D9/606D5F60" Ref="#PWR0136"  Part="1" 
+AR Path="/606D5F60" Ref="#PWR0136"  Part="1" 
 F 0 "#PWR0136" H 8250 5850 30  0001 C CNN
 F 1 "GND" H 8250 5780 30  0001 C CNN
 F 2 "" H 8250 5850 60  0000 C CNN
@@ -953,11 +959,12 @@ $EndComp
 Wire Wire Line
 	2050 2950 2050 2800
 $Comp
-L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR?
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 606D5F94
 P 2050 3900
 AR Path="/6073880F/606D5F94" Ref="#PWR?"  Part="1" 
 AR Path="/6073B0D9/606D5F94" Ref="#PWR0138"  Part="1" 
+AR Path="/606D5F94" Ref="#PWR0138"  Part="1" 
 F 0 "#PWR0138" H 2050 3900 30  0001 C CNN
 F 1 "GND" H 2050 3830 30  0001 C CNN
 F 2 "" H 2050 3900 60  0000 C CNN
@@ -1235,11 +1242,12 @@ F 3 "" H 8900 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR?
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 6086901F
 P 9400 4400
 AR Path="/6073880F/6086901F" Ref="#PWR?"  Part="1" 
 AR Path="/6073B0D9/6086901F" Ref="#PWR0142"  Part="1" 
+AR Path="/6086901F" Ref="#PWR0142"  Part="1" 
 F 0 "#PWR0142" H 9400 4400 30  0001 C CNN
 F 1 "GND" H 9400 4330 30  0001 C CNN
 F 2 "" H 9400 4400 60  0000 C CNN
@@ -1333,11 +1341,12 @@ F 3 "" H 7050 5600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_Supply_V2-rescue:GND-RESCUE-12V_Supply #PWR?
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 6090651C
 P 7050 5850
 AR Path="/6073880F/6090651C" Ref="#PWR?"  Part="1" 
 AR Path="/6073B0D9/6090651C" Ref="#PWR0143"  Part="1" 
+AR Path="/6090651C" Ref="#PWR0143"  Part="1" 
 F 0 "#PWR0143" H 7050 5850 30  0001 C CNN
 F 1 "GND" H 7050 5780 30  0001 C CNN
 F 2 "" H 7050 5850 60  0000 C CNN
@@ -1355,4 +1364,39 @@ Text Notes 2550 2000 0    50   ~ 0
 1%
 Text Notes 5000 5400 0    50   ~ 0
 1%
+$Comp
+L Comparator:LM393 U4
+U 2 1 6098A79C
+P 6300 6700
+F 0 "U4" H 6300 7067 50  0000 C CNN
+F 1 "LM393" H 6300 6976 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6300 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm393.pdf" H 6300 6700 50  0001 C CNN
+	2    6300 6700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 6700
+$Comp
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
+U 1 1 60991CFC
+P 5900 6950
+AR Path="/6073880F/60991CFC" Ref="#PWR?"  Part="1" 
+AR Path="/6073B0D9/60991CFC" Ref="#PWR0145"  Part="1" 
+AR Path="/60991CFC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0145" H 5900 6950 30  0001 C CNN
+F 1 "GND" H 5900 6880 30  0001 C CNN
+F 2 "" H 5900 6950 60  0000 C CNN
+F 3 "" H 5900 6950 60  0000 C CNN
+	1    5900 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6600 5900 6600
+Wire Wire Line
+	5900 6600 5900 6800
+Wire Wire Line
+	6000 6800 5900 6800
+Connection ~ 5900 6800
+Wire Wire Line
+	5900 6800 5900 6950
 $EndSCHEMATC

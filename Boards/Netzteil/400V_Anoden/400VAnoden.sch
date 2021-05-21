@@ -52,7 +52,7 @@ U 1 1 55C5E346
 P 5100 2650
 F 0 "C3" H 5125 2750 50  0000 L CNN
 F 1 "100µF/450V" H 5125 2550 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 5138 2500 30  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn" H 5138 2500 30  0001 C CNN
 F 3 "" H 5100 2650 60  0000 C CNN
 	1    5100 2650
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 55C5F865
 P 9150 2900
 F 0 "Q1" H 9450 2950 50  0000 R CNN
 F 1 "2SC2979" H 9750 2850 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-218-3_Vertical" H 9350 3000 29  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 9350 3000 29  0001 C CNN
 F 3 "" H 9150 2900 60  0000 C CNN
 	1    9150 2900
 	1    0    0    -1  
@@ -618,7 +618,7 @@ F 3 "" H 2550 2100 60  0000 C CNN
 	1    2550 2100
 	1    0    0    -1  
 $EndComp
-Text Label 9700 2500 0    60   ~ 0
+Text Label 9950 2500 0    60   ~ 0
 +450V_DC
 Text Label 10300 4050 0    60   ~ 0
 -180V_DC
@@ -658,7 +658,6 @@ Wire Wire Line
 Connection ~ 8850 2500
 Wire Wire Line
 	9250 2500 9250 2700
-Connection ~ 9250 2500
 Wire Wire Line
 	8250 3300 8250 3400
 Wire Wire Line
@@ -726,7 +725,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 4900 3450 5000
 Wire Wire Line
-	9850 3750 10400 3750
+	9550 3750 10400 3750
 $Comp
 L 400VAnoden-rescue:CONN_3-borniers P5
 U 1 1 5A14516E
@@ -754,8 +753,7 @@ $EndComp
 Wire Wire Line
 	6750 2500 7000 2500
 Wire Wire Line
-	10400 3350 9850 3350
-Connection ~ 9850 3350
+	10400 3350 9550 3350
 Wire Wire Line
 	10400 3550 10300 3550
 Wire Wire Line
@@ -785,8 +783,6 @@ Wire Wire Line
 	8850 2900 8850 2950
 Wire Wire Line
 	8850 2500 9250 2500
-Wire Wire Line
-	9250 2500 9850 2500
 Wire Wire Line
 	5000 5000 4800 5000
 Wire Wire Line
@@ -820,7 +816,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 4600 3450 4600
 Wire Wire Line
-	9850 3350 9850 3750
+	9550 3350 9550 3750
 $Comp
 L 400VAnoden-rescue:CONN_2-borniers P7
 U 1 1 5DA42FCE
@@ -845,12 +841,8 @@ F 3 "" H 10750 2600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	10400 2950 9850 2950
-Connection ~ 9850 2950
-Wire Wire Line
-	9850 2950 9850 3350
 Wire Wire Line
 	10400 2500 9850 2500
-Connection ~ 9850 2500
 Wire Wire Line
 	9850 2500 9850 2950
 Wire Wire Line
@@ -925,44 +917,44 @@ Wire Wire Line
 $Comp
 L w_relay:RELAY_40.51 RLY1
 U 1 1 5DBE6391
-P 1750 5000
-F 0 "RLY1" H 1750 5503 60  0000 C CNN
-F 1 "RELAY_40.51" H 1750 5397 60  0000 C CNN
-F 2 "w_relay:relay_40.51" H 1750 5000 60  0001 C CNN
-F 3 "" H 1750 5291 60  0000 C CNN
-	1    1750 5000
-	1    0    0    -1  
+P 1750 4950
+F 0 "RLY1" H 1750 5453 60  0000 C CNN
+F 1 "RELAY_40.51" H 1750 5347 60  0000 C CNN
+F 2 "w_relay:relay_40.51" H 1750 4950 60  0001 C CNN
+F 3 "" H 1750 5241 60  0000 C CNN
+	1    1750 4950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L w_relay:RELAY_40.51 RLY2
 U 1 1 5DBF7BEB
-P 1800 2500
-F 0 "RLY2" H 1800 3003 60  0000 C CNN
-F 1 "RELAY_40.51" H 1800 2897 60  0000 C CNN
-F 2 "w_relay:relay_40.51" H 1800 2500 60  0001 C CNN
-F 3 "" H 1800 2791 60  0000 C CNN
-	1    1800 2500
-	1    0    0    -1  
+P 1800 2450
+F 0 "RLY2" H 1800 2953 60  0000 C CNN
+F 1 "RELAY_40.51" H 1800 2847 60  0000 C CNN
+F 2 "w_relay:relay_40.51" H 1800 2450 60  0001 C CNN
+F 3 "" H 1800 2741 60  0000 C CNN
+	1    1800 2450
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 2350 1500 2350
+	1600 2300 1500 2300
 Wire Wire Line
-	1500 4850 1550 4850
+	1500 4800 1550 4800
 Wire Wire Line
-	1950 4850 2100 4850
+	1950 4800 2100 4800
 Wire Wire Line
-	2100 2350 2000 2350
+	2100 2300 2000 2300
 Wire Wire Line
-	2100 2350 2100 3650
+	2100 2300 2100 3650
 Wire Wire Line
-	2100 3650 2100 4850
+	2100 3650 2100 4800
 Connection ~ 2100 3650
 Wire Wire Line
-	1500 2350 1500 3250
+	1500 2300 1500 3250
 Wire Wire Line
 	1400 3650 1800 3650
 Wire Wire Line
-	1500 4850 1500 3450
+	1500 4800 1500 3450
 Connection ~ 1500 3450
 Wire Wire Line
 	1800 3600 1800 3650
@@ -976,14 +968,12 @@ Wire Wire Line
 Connection ~ 1500 3250
 Wire Wire Line
 	1500 3250 1500 3450
-NoConn ~ 1950 5050
-NoConn ~ 2000 2550
 Wire Wire Line
 	1400 2600 1600 2600
 Wire Wire Line
-	2000 2650 2350 2650
+	2000 2550 2350 2550
 Wire Wire Line
-	2350 2650 2350 2900
+	2350 2550 2350 2900
 Wire Wire Line
 	1400 2400 2350 2400
 Wire Wire Line
@@ -991,17 +981,36 @@ Wire Wire Line
 Wire Wire Line
 	1550 5100 1400 5100
 Wire Wire Line
-	1950 5150 2300 5150
+	1950 5050 2300 5050
 Wire Wire Line
-	2300 5150 2300 5400
-Wire Wire Line
-	1400 4900 2300 4900
+	2300 5050 2300 5400
 Wire Wire Line
 	2300 4900 2300 4600
-Text Notes 4900 2400 0    50   ~ 0
-Ist der R nötig ?
-Text Notes 4750 4900 0    50   ~ 0
-Ist der R nötig ?
-Text Notes 3350 3200 0    50   ~ 0
-Polarität Package prüfen
+Wire Wire Line
+	1400 4900 2300 4900
+$Comp
+L 400VAnoden-rescue:F_Small F2
+U 1 1 608CDC13
+P 9700 2500
+F 0 "F2" H 9660 2560 50  0000 L CNN
+F 1 "F_Small" H 9580 2440 50  0000 L CNN
+F 2 "w_misc_comp:fuse_holder_CQ-2" H 9700 2500 60  0001 C CNN
+F 3 "" H 9700 2500 60  0000 C CNN
+	1    9700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3350 9550 2500
+Wire Wire Line
+	9550 2500 9250 2500
+Connection ~ 9550 3350
+Connection ~ 9250 2500
+Wire Wire Line
+	9600 2500 9550 2500
+Connection ~ 9550 2500
+Wire Wire Line
+	9800 2500 9850 2500
+Connection ~ 9850 2500
+NoConn ~ 1550 5000
+NoConn ~ 1600 2500
 $EndSCHEMATC

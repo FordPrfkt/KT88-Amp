@@ -1,0 +1,121 @@
+Source,C:\Users\danie\Documents\Projekte\KT88-Amp\boards\Netzteil\12V_6V3_Delay\12V_6V3_Delay.sch
+Kicad Rev,Eeschema (5.1.9)-1
+Generated Date,22.04.2021 20:59:36
+
+Title,KT88 12V, 6,3V DC Regler & Einschaltverzögerung
+Company,Daniel Walter
+Revision,1.0
+Date Issue,2021-03-31
+Comment,fordprfkt@googlemail.com
+
+Reference,Value,Library,Library Ref
+P1,12V5_AC,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+U2,LM7812CT,12V_6V3_Delay-rescue,LM7812CT-12V_Supply_V2-rescue
+C1,4700µF / 63V,Device,CP
+C2,100nF / 63V,Device,C
+C3,100nF / 16V,Device,C
+C5,47µF / 16V,Device,CP
+P2,12V_DC_1,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+P3,12V_DC_2,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+D2,1N4001,Device,D
+F1,1A Slow,12V_6V3_Delay-rescue,F_Small-12V_Supply_V2-rescue
+P5,12V_DC_3,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+P6,12V_DC_4,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+D3,SB190,Diode,SB160
+D4,SB350,Diode,SB160
+D1,SB350,Device,D_Schottky
+D9,SB350,Device,D_Schottky
+C10,22nF,Device,C
+C9,22nF,Device,C
+D10,SB350,Device,D_Schottky
+D11,SB350,Device,D_Schottky
+C12,22nF,Device,C
+C11,22nF,Device,C
+D12,LED,Device,LED
+R2,560R,Device,R
+P8,12V_DC_4,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+P4,7V5_AC,6V3_Heizung-rescue,CONN_2-borniers
+D5,MBR1645,Device,D_Schottky
+D6,MBR1645,Device,D_Schottky
+D7,MBR1645,Device,D_Schottky
+D8,MBR1645,Device,D_Schottky
+C7,22nF,Device,C
+C8,22nF,Device,C
+C14,22nF,Device,C
+C13,22nF,Device,C
+R6,1k,Device,R
+R4,100R,Device,R
+C18,1nF,Device,C
+C20,680µF,Device,CP
+R9,4k12,Device,R
+R10,1k,Device,R
+C22,1nF,Device,C
+C24,100nF,Device,C
+P9,6V3_DC_2,6V3_Heizung-rescue,CONN_2-borniers
+R1,22k,Device,R
+C16,680µF/16V,Device,CP
+D13,LM385Z-1.2,6V3_Heizung-rescue,ZENER-RESCUE-6V3_Heizung
+R5,1k,Device,R
+R3,100R,Device,R
+C17,1nF,Device,C
+C19,680µF,Device,CP
+R7,4k12,Device,R
+R8,1k,Device,R
+C21,1nF,Device,C
+C23,100nF,Device,C
+P10,6V3_DC_1,6V3_Heizung-rescue,CONN_2-borniers
+Q1,IRF530,Transistor_FET,IRF540N
+Q2,IRF530,Transistor_FET,IRF540N
+C4,100nF,Device,C
+F2,Fuse,Device,Fuse
+D14,LED,Device,LED
+R11,270R,Device,R
+C15,33000µF/16V,Device,CP
+U1,LMC6484,Amplifier_Operational,LMC6484
+P13,Relais,6V3_Heizung-rescue,CONN_2-12V_Supply_V2-rescue
+D21,LED,Device,LED
+R32,560,Device,R
+U3,LM393,Comparator,LM393
+R13,82K,Device,R
+R14,100K,Device,R
+R15,10K,Device,R
+C27,1µF / 16V,Device,C
+R16,1M,Device,R
+R19,10K,Device,R
+R20,10K,Device,R
+R22,620K,Device,R
+D17,1N4148,Diode,1N4148
+C30,220µF / 16V,Device,CP
+R24,10K,Device,R
+R26,5M1,Device,R
+R28,10K,Device,R
+D19,ZD5V6,Device,D_Zener
+R30,10K,Device,R
+Q5,BS170,Transistor_FET,BS170
+P11,Relais,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+P12,Relais,12V_6V3_Delay-rescue,CONN_2-12V_Supply_V2-rescue
+D20,LED,Device,LED
+R31,560R,Device,R
+U4,LM393,Comparator,LM393
+R21,470K,Device,R
+D16,1N4148,Diode,1N4148
+C29,56µF / 16V,Device,CP
+R23,10K,Device,R
+R25,5M1,Device,R
+R27,10K,Device,R
+D18,ZD5V6,Device,D_Zener
+R29,10K,Device,R
+Q4,BS170,Transistor_FET,BS170
+C25,100nF / 63V,Device,C
+D15,ZD3V9,Device,D_Zener
+R12,4K7,Device,R
+C26,100nF / 63V,Device,C
+C6,100nF / 63V,Device,C
+R17,10K,Device,R
+R35,680R,Device,R
+Q3,BS170,Transistor_FET,BS170
+R34,560R,Device,R
+R33,10K,Device,R
+D22,ZD5V6,Device,D_Zener
+J1,OP_LED,Connector_Generic,Conn_01x03
+R18,10K,Device,R

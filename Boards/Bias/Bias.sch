@@ -22,7 +22,7 @@ F 1 "CONN_12V" V 1200 1450 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1100 1450 50  0001 C CNN
 F 3 "" H 1100 1450 50  0000 C CNN
 	1    1100 1450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR03
@@ -705,10 +705,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 5700 5200 5700
 Wire Wire Line
-	3250 3550 3300 3550
-Wire Wire Line
-	3300 3550 3300 2350
-Wire Wire Line
 	3300 2350 4300 2350
 Wire Wire Line
 	3250 4050 3300 4050
@@ -716,10 +712,6 @@ Wire Wire Line
 	3300 4050 3300 5000
 Wire Wire Line
 	3300 5000 4300 5000
-Wire Wire Line
-	3400 3650 3250 3650
-Wire Wire Line
-	3400 2900 3400 3650
 Wire Wire Line
 	3400 2900 3850 2900
 Wire Wire Line
@@ -1057,4 +1049,12 @@ Wire Wire Line
 	1700 4150 1900 4150
 Wire Wire Line
 	1700 3450 1900 3450
+Wire Wire Line
+	3250 3550 3400 3550
+Wire Wire Line
+	3400 3550 3400 2900
+Wire Wire Line
+	3300 2350 3300 3650
+Wire Wire Line
+	3300 3650 3250 3650
 $EndSCHEMATC

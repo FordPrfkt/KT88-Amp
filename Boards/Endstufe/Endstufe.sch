@@ -785,7 +785,6 @@ Wire Wire Line
 	11050 3900 11050 3600
 Wire Wire Line
 	11050 3600 10550 3600
-Connection ~ 10550 3600
 Wire Wire Line
 	11050 4300 11050 4200
 Wire Wire Line
@@ -865,9 +864,7 @@ Wire Wire Line
 	5650 7000 5650 6750
 Connection ~ 5650 7000
 Wire Wire Line
-	1200 2200 1200 2400
-Wire Wire Line
-	900  2200 1200 2200
+	1200 2200 1200 2300
 Wire Notes Line
 	6900 4750 6900 1000
 Wire Notes Line
@@ -883,7 +880,7 @@ F 3 "" H 1300 7000 60  0000 C CNN
 	1    1300 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 6900 2    60   Input ~ 0
+Text GLabel 1850 6600 2    60   Input ~ 0
 +300V
 Text GLabel 1850 6700 2    60   Input ~ 0
 +240V
@@ -974,11 +971,11 @@ F 3 "" H 7600 3550 50  0000 C CNN
 	1    7600 3550
 	1    0    0    -1  
 $EndComp
-Text GLabel 3400 6500 2    60   Output ~ 0
+Text GLabel 3700 6400 2    60   Output ~ 0
 UG_1
 Text GLabel 3400 6800 2    60   Output ~ 0
 UG_2
-Text GLabel 3700 6400 2    60   Output ~ 0
+Text GLabel 3400 6500 2    60   Output ~ 0
 Bias_1
 Text GLabel 3700 6900 2    60   Output ~ 0
 Bias_2
@@ -1037,8 +1034,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 2100 2500 2100
 Wire Wire Line
-	3700 6400 3050 6400
-Wire Wire Line
 	3050 6700 3150 6700
 Wire Wire Line
 	3150 6700 3150 7300
@@ -1072,7 +1067,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 3550 1450 3500
 Wire Wire Line
-	1850 3600 1850 3500
+	1850 3600 1850 3550
 $Comp
 L Endstufe-rescue:Conn_01x06 J1
 U 1 1 5A91A035
@@ -1082,17 +1077,6 @@ F 1 "HV In" H 1000 6200 50  0000 C CNN
 F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 1000 6600 50  0001 C CNN
 F 3 "" H 1000 6600 50  0001 C CNN
 	1    1000 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Endstufe-rescue:Conn_01x02 J3
-U 1 1 5A92D98F
-P 700 2100
-F 0 "J3" H 700 2200 50  0000 C CNN
-F 1 "NF_In" H 700 1900 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 700 2100 50  0001 C CNN
-F 3 "" H 700 2100 50  0001 C CNN
-	1    700  2100
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1184,7 +1168,6 @@ Wire Wire Line
 	9750 2050 9750 2150
 Wire Wire Line
 	9750 3450 9750 3900
-NoConn ~ 1950 2900
 Wire Wire Line
 	1750 2100 1850 2100
 Wire Wire Line
@@ -1225,38 +1208,12 @@ Connection ~ 6400 1600
 Connection ~ 6400 3950
 Connection ~ 6700 1600
 Connection ~ 6700 3950
-$Comp
-L Connector_Generic:Conn_01x06 J4
-U 1 1 5CC18566
-P 10950 2550
-F 0 "J4" H 11030 2542 50  0000 L CNN
-F 1 "Trafo" H 11030 2451 50  0000 L CNN
-F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 10950 2550 50  0001 C CNN
-F 3 "~" H 10950 2550 50  0001 C CNN
-	1    10950 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9900 1450 9900 2350
+	9900 1450 9900 2550
 Wire Wire Line
-	10750 2350 9900 2350
+	10750 2550 9900 2550
 Wire Wire Line
 	10450 2650 10750 2650
-$Comp
-L Endstufe-rescue:GND #PWR0101
-U 1 1 5CCAF2A5
-P 10700 2900
-F 0 "#PWR0101" H 10700 2650 50  0001 C CNN
-F 1 "GND" H 10700 2750 50  0000 C CNN
-F 2 "" H 10700 2900 60  0000 C CNN
-F 3 "" H 10700 2900 60  0000 C CNN
-	1    10700 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 2450 10750 2450
-Wire Wire Line
-	10700 2450 10700 2900
 Wire Wire Line
 	10750 2850 10450 2850
 Wire Wire Line
@@ -1286,9 +1243,9 @@ Wire Notes Line
 Text Notes 8950 2900 0    60   ~ 12
 Heizung\nKT88
 Wire Notes Line
-	9950 4800 9950 1050
+	9850 4800 9850 1050
 Wire Notes Line
-	10050 3150 11200 3150
+	10050 3050 11200 3050
 Wire Notes Line
 	2500 5500 2500 7600
 Text Notes 1000 7600 0    60   ~ 12
@@ -1301,8 +1258,6 @@ Wire Wire Line
 	7600 3750 7600 3650
 Wire Wire Line
 	3050 6800 3400 6800
-Wire Wire Line
-	3050 6500 3400 6500
 Wire Wire Line
 	7600 2400 7600 2350
 $Comp
@@ -1325,18 +1280,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 6500 1200 6500
 Wire Wire Line
-	1200 6600 1300 6600
-Wire Wire Line
-	1300 6600 1300 6800
-Wire Wire Line
 	1200 6800 1300 6800
-Connection ~ 1300 6800
 Wire Wire Line
 	1300 6800 1300 7000
-Text GLabel 1850 6400 2    60   Input ~ 0
+Text GLabel 1450 6900 2    60   Input ~ 0
 -60V
-Wire Wire Line
-	1850 6400 1200 6400
 Wire Wire Line
 	7800 2450 7800 2800
 Wire Wire Line
@@ -1368,8 +1316,90 @@ Wire Notes Line
 	8450 2450 8450 2550
 Wire Notes Line
 	8450 2550 8500 2550
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 60906A39
+P 10950 2650
+F 0 "J4" H 11030 2642 50  0000 L CNN
+F 1 "Übertrager" H 11030 2551 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical" H 10950 2650 50  0001 C CNN
+F 3 "~" H 10950 2650 50  0001 C CNN
+	1    10950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 60914273
+P 10950 3150
+F 0 "J5" H 11030 3142 50  0000 L CNN
+F 1 "Gegenkopplung" H 11030 3051 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 10950 3150 50  0001 C CNN
+F 3 "~" H 10950 3150 50  0001 C CNN
+	1    10950 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 10550 3600
+$Comp
+L Endstufe-rescue:GND #PWR0101
+U 1 1 60920978
+P 10700 3400
+F 0 "#PWR0101" H 10700 3150 50  0001 C CNN
+F 1 "GND" H 10700 3250 50  0000 C CNN
+F 2 "" H 10700 3400 60  0000 C CNN
+F 3 "" H 10700 3400 60  0000 C CNN
+	1    10700 3400
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	10550 2550 10750 2550
+	10750 3150 10550 3150
 Wire Wire Line
-	10550 2550 10550 3600
+	10550 3150 10550 3600
+Wire Wire Line
+	10750 3250 10700 3250
+Wire Wire Line
+	10700 3250 10700 3400
+Wire Wire Line
+	1850 6600 1200 6600
+Wire Wire Line
+	1300 6800 1300 6400
+Wire Wire Line
+	1300 6400 1200 6400
+Connection ~ 1300 6800
+Wire Wire Line
+	3400 6500 3050 6500
+Wire Wire Line
+	3050 6400 3700 6400
+Wire Wire Line
+	1850 3550 2150 3550
+Wire Wire Line
+	2150 3550 2150 2850
+Wire Wire Line
+	2150 2850 1950 2850
+Wire Wire Line
+	1950 2850 1950 2900
+Connection ~ 1850 3550
+Wire Wire Line
+	1850 3550 1850 3500
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 6099AC4C
+P 700 2200
+F 0 "J3" H 618 2517 50  0000 C CNN
+F 1 "Audio_In" H 618 2426 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 700 2200 50  0001 C CNN
+F 3 "~" H 700 2200 50  0001 C CNN
+	1    700  2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2300 1200 2300
+Connection ~ 1200 2300
+Wire Wire Line
+	1200 2300 1200 2400
+Wire Wire Line
+	1200 2200 900  2200
+Text Label 9450 1450 0    60   ~ 0
++450V_T1
+Text Label 9450 4100 0    60   ~ 0
++450V_T2
 $EndSCHEMATC
