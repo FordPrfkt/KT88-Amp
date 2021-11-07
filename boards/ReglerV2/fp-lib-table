@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name Potentiometer_Alps_RKxxx)(type KiCad)(uri D:\KiCadLibs\Potentiometer_Alps_RKxxx.pretty)(options "")(descr ""))
-  (lib (name w_relay)(type KiCad)(uri D:\KiCadLibs\libaries\w_relay.pretty)(options "")(descr ""))
-  (lib (name Reed)(type Legacy)(uri D:\KiCadLibs\Reed.mod)(options "")(descr ""))
+  (lib (name Potentiometer_Alps_RKxxx)(type KiCad)(uri D:/KiCadLibs/Potentiometer_Alps_RKxxx.pretty)(options "")(descr ""))
+  (lib (name w_relay)(type KiCad)(uri D:/KiCadLibs/libaries/w_relay.pretty)(options "")(descr ""))
+  (lib (name Reed)(type Legacy)(uri D:/KiCadLibs/Reed.mod)(options "")(descr ""))
+  (lib (name w_switch)(type KiCad)(uri C:/Users/danie/Documents/Projekte/KiCad/Kicad_Lib/Footprint/w_switch.pretty)(options "")(descr ""))
 )

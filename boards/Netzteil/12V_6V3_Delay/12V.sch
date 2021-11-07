@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P1
+L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P?
 U 1 1 55C544D9
 P 1600 2750
-AR Path="/55C544D9" Ref="P1"  Part="1" 
+AR Path="/55C544D9" Ref="P?"  Part="1" 
 AR Path="/6073880F/55C544D9" Ref="P1"  Part="1" 
 F 0 "P1" V 1550 2750 40  0000 C CNN
 F 1 "12V5_AC" V 1650 2750 40  0000 C CNN
@@ -27,12 +27,12 @@ F 3 "" H 1600 2750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:LM7812CT-12V_Supply_V2-rescue U2
+L 12V_6V3_Delay-rescue:LM7812CT-12V_Supply_V2-rescue U?
 U 1 1 55C54685
 P 6600 2800
-AR Path="/55C54685" Ref="U2"  Part="1" 
-AR Path="/6073880F/55C54685" Ref="U2"  Part="1" 
-F 0 "U2" H 6400 3000 40  0000 C CNN
+AR Path="/55C54685" Ref="U?"  Part="1" 
+AR Path="/6073880F/55C54685" Ref="U1"  Part="1" 
+F 0 "U1" H 6400 3000 40  0000 C CNN
 F 1 "LM7812CT" H 6600 3000 40  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6600 2900 30  0000 C CIN
 F 3 "" H 6600 2800 60  0000 C CNN
@@ -40,10 +40,10 @@ F 3 "" H 6600 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C1
+L Device:CP C5
 U 1 1 55C546E0
 P 5150 2900
-F 0 "C1" H 5175 3000 50  0000 L CNN
+F 0 "C5" H 5175 3000 50  0000 L CNN
 F 1 "4700µF / 63V" H 5175 2800 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 5188 2750 30  0001 C CNN
 F 3 "" H 5150 2900 60  0000 C CNN
@@ -51,10 +51,10 @@ F 3 "" H 5150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C6
 U 1 1 55C54749
 P 5850 2900
-F 0 "C2" H 5875 3000 50  0000 L CNN
+F 0 "C6" H 5875 3000 50  0000 L CNN
 F 1 "100nF / 63V" H 5875 2800 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5888 2750 30  0001 C CNN
 F 3 "" H 5850 2900 60  0000 C CNN
@@ -62,10 +62,10 @@ F 3 "" H 5850 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C7
 U 1 1 55C547E2
 P 7150 2900
-F 0 "C3" H 7175 3000 50  0000 L CNN
+F 0 "C7" H 7175 3000 50  0000 L CNN
 F 1 "100nF / 16V" H 7175 2800 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 7188 2750 30  0001 C CNN
 F 3 "" H 7150 2900 60  0000 C CNN
@@ -73,10 +73,10 @@ F 3 "" H 7150 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C5
+L Device:CP C8
 U 1 1 55C5482E
 P 7800 2900
-F 0 "C5" H 7825 3000 50  0000 L CNN
+F 0 "C8" H 7825 3000 50  0000 L CNN
 F 1 "47µF / 16V" H 7825 2800 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7838 2750 30  0001 C CNN
 F 3 "" H 7800 2900 60  0000 C CNN
@@ -84,10 +84,10 @@ F 3 "" H 7800 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P2
+L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P?
 U 1 1 55C54C8E
 P 9300 2850
-AR Path="/55C54C8E" Ref="P2"  Part="1" 
+AR Path="/55C54C8E" Ref="P?"  Part="1" 
 AR Path="/6073880F/55C54C8E" Ref="P2"  Part="1" 
 F 0 "P2" V 9250 2850 40  0000 C CNN
 F 1 "12V_DC_1" V 9350 2850 40  0000 C CNN
@@ -97,10 +97,10 @@ F 3 "" H 9300 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P3
+L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P?
 U 1 1 55C54D95
 P 9300 3300
-AR Path="/55C54D95" Ref="P3"  Part="1" 
+AR Path="/55C54D95" Ref="P?"  Part="1" 
 AR Path="/6073880F/55C54D95" Ref="P3"  Part="1" 
 F 0 "P3" V 9250 3300 40  0000 C CNN
 F 1 "12V_DC_2" V 9350 3300 40  0000 C CNN
@@ -110,12 +110,12 @@ F 3 "" H 9300 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR015
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C54F23
 P 8950 3500
-AR Path="/55C54F23" Ref="#PWR015"  Part="1" 
-AR Path="/6073880F/55C54F23" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 8950 3500 30  0001 C CNN
+AR Path="/55C54F23" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C54F23" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 8950 3500 30  0001 C CNN
 F 1 "GND" H 8950 3430 30  0001 C CNN
 F 2 "" H 8950 3500 60  0000 C CNN
 F 3 "" H 8950 3500 60  0000 C CNN
@@ -123,12 +123,12 @@ F 3 "" H 8950 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR014
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C54FA5
 P 8950 3050
-AR Path="/55C54FA5" Ref="#PWR014"  Part="1" 
-AR Path="/6073880F/55C54FA5" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 8950 3050 30  0001 C CNN
+AR Path="/55C54FA5" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C54FA5" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 8950 3050 30  0001 C CNN
 F 1 "GND" H 8950 2980 30  0001 C CNN
 F 2 "" H 8950 3050 60  0000 C CNN
 F 3 "" H 8950 3050 60  0000 C CNN
@@ -136,12 +136,12 @@ F 3 "" H 8950 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR011
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C54FCF
 P 7800 3150
-AR Path="/55C54FCF" Ref="#PWR011"  Part="1" 
-AR Path="/6073880F/55C54FCF" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 7800 3150 30  0001 C CNN
+AR Path="/55C54FCF" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C54FCF" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 7800 3150 30  0001 C CNN
 F 1 "GND" H 7800 3080 30  0001 C CNN
 F 2 "" H 7800 3150 60  0000 C CNN
 F 3 "" H 7800 3150 60  0000 C CNN
@@ -149,12 +149,12 @@ F 3 "" H 7800 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR09
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C55002
 P 7150 3150
-AR Path="/55C55002" Ref="#PWR09"  Part="1" 
-AR Path="/6073880F/55C55002" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 7150 3150 30  0001 C CNN
+AR Path="/55C55002" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C55002" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 7150 3150 30  0001 C CNN
 F 1 "GND" H 7150 3080 30  0001 C CNN
 F 2 "" H 7150 3150 60  0000 C CNN
 F 3 "" H 7150 3150 60  0000 C CNN
@@ -162,12 +162,12 @@ F 3 "" H 7150 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR08
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C5507B
 P 6600 3150
-AR Path="/55C5507B" Ref="#PWR08"  Part="1" 
-AR Path="/6073880F/55C5507B" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 6600 3150 30  0001 C CNN
+AR Path="/55C5507B" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C5507B" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 6600 3150 30  0001 C CNN
 F 1 "GND" H 6600 3080 30  0001 C CNN
 F 2 "" H 6600 3150 60  0000 C CNN
 F 3 "" H 6600 3150 60  0000 C CNN
@@ -175,12 +175,12 @@ F 3 "" H 6600 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR03
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C550A7
 P 5850 3150
-AR Path="/55C550A7" Ref="#PWR03"  Part="1" 
-AR Path="/6073880F/55C550A7" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 5850 3150 30  0001 C CNN
+AR Path="/55C550A7" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C550A7" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 5850 3150 30  0001 C CNN
 F 1 "GND" H 5850 3080 30  0001 C CNN
 F 2 "" H 5850 3150 60  0000 C CNN
 F 3 "" H 5850 3150 60  0000 C CNN
@@ -188,12 +188,12 @@ F 3 "" H 5850 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR02
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C550D3
 P 5150 3150
-AR Path="/55C550D3" Ref="#PWR02"  Part="1" 
-AR Path="/6073880F/55C550D3" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 5150 3150 30  0001 C CNN
+AR Path="/55C550D3" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C550D3" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 5150 3150 30  0001 C CNN
 F 1 "GND" H 5150 3080 30  0001 C CNN
 F 2 "" H 5150 3150 60  0000 C CNN
 F 3 "" H 5150 3150 60  0000 C CNN
@@ -201,10 +201,10 @@ F 3 "" H 5150 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR013
+L power:+12V #PWR09
 U 1 1 55C558D9
 P 8650 2500
-F 0 "#PWR013" H 8650 2450 20  0001 C CNN
+F 0 "#PWR09" H 8650 2450 20  0001 C CNN
 F 1 "+12V" H 8650 2600 30  0000 C CNN
 F 2 "" H 8650 2500 60  0000 C CNN
 F 3 "" H 8650 2500 60  0000 C CNN
@@ -212,10 +212,10 @@ F 3 "" H 8650 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D2
+L Device:D D7
 U 1 1 55C58641
 P 6600 2350
-F 0 "D2" H 6600 2450 50  0000 C CNN
+F 0 "D7" H 6600 2450 50  0000 C CNN
 F 1 "1N4001" H 6600 2250 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6600 2350 60  0001 C CNN
 F 3 "" H 6600 2350 60  0000 C CNN
@@ -223,10 +223,10 @@ F 3 "" H 6600 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:F_Small-12V_Supply_V2-rescue F1
+L 12V_6V3_Delay-rescue:F_Small-12V_Supply_V2-rescue F?
 U 1 1 55C5D9C9
 P 2100 2350
-AR Path="/55C5D9C9" Ref="F1"  Part="1" 
+AR Path="/55C5D9C9" Ref="F?"  Part="1" 
 AR Path="/6073880F/55C5D9C9" Ref="F1"  Part="1" 
 F 0 "F1" H 2060 2410 50  0000 L CNN
 F 1 "1A Slow" H 1980 2290 50  0000 L CNN
@@ -236,12 +236,12 @@ F 3 "" H 2100 2350 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P5
+L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P?
 U 1 1 55C680A8
 P 9300 3750
-AR Path="/55C680A8" Ref="P5"  Part="1" 
-AR Path="/6073880F/55C680A8" Ref="P5"  Part="1" 
-F 0 "P5" V 9250 3750 40  0000 C CNN
+AR Path="/55C680A8" Ref="P?"  Part="1" 
+AR Path="/6073880F/55C680A8" Ref="P4"  Part="1" 
+F 0 "P4" V 9250 3750 40  0000 C CNN
 F 1 "12V_DC_3" V 9350 3750 40  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9300 3750 60  0001 C CNN
 F 3 "" H 9300 3750 60  0000 C CNN
@@ -249,12 +249,12 @@ F 3 "" H 9300 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR016
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C680B0
 P 8950 3950
-AR Path="/55C680B0" Ref="#PWR016"  Part="1" 
-AR Path="/6073880F/55C680B0" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 8950 3950 30  0001 C CNN
+AR Path="/55C680B0" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C680B0" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 8950 3950 30  0001 C CNN
 F 1 "GND" H 8950 3880 30  0001 C CNN
 F 2 "" H 8950 3950 60  0000 C CNN
 F 3 "" H 8950 3950 60  0000 C CNN
@@ -262,12 +262,12 @@ F 3 "" H 8950 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P6
+L 12V_6V3_Delay-rescue:CONN_2-12V_Supply_V2-rescue P?
 U 1 1 55C6810E
 P 9300 4200
-AR Path="/55C6810E" Ref="P6"  Part="1" 
-AR Path="/6073880F/55C6810E" Ref="P6"  Part="1" 
-F 0 "P6" V 9250 4200 40  0000 C CNN
+AR Path="/55C6810E" Ref="P?"  Part="1" 
+AR Path="/6073880F/55C6810E" Ref="P5"  Part="1" 
+F 0 "P5" V 9250 4200 40  0000 C CNN
 F 1 "12V_DC_4" V 9350 4200 40  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9300 4200 60  0001 C CNN
 F 3 "" H 9300 4200 60  0000 C CNN
@@ -275,12 +275,12 @@ F 3 "" H 9300 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR017
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C68115
 P 8950 4400
-AR Path="/55C68115" Ref="#PWR017"  Part="1" 
-AR Path="/6073880F/55C68115" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 8950 4400 30  0001 C CNN
+AR Path="/55C68115" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C68115" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 8950 4400 30  0001 C CNN
 F 1 "GND" H 8950 4330 30  0001 C CNN
 F 2 "" H 8950 4400 60  0000 C CNN
 F 3 "" H 8950 4400 60  0000 C CNN
@@ -345,12 +345,12 @@ Wire Wire Line
 	8950 4300 8950 4400
 Connection ~ 8050 2750
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR01
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 55C550FF
 P 2150 3350
-AR Path="/55C550FF" Ref="#PWR01"  Part="1" 
-AR Path="/6073880F/55C550FF" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 2150 3350 30  0001 C CNN
+AR Path="/55C550FF" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/55C550FF" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2150 3350 30  0001 C CNN
 F 1 "GND" H 2150 3280 30  0001 C CNN
 F 2 "" H 2150 3350 60  0000 C CNN
 F 3 "" H 2150 3350 60  0000 C CNN
@@ -378,10 +378,10 @@ Wire Wire Line
 Wire Wire Line
 	8050 2750 8400 2750
 $Comp
-L Diode:SB160 D3
+L Diode:SB160 D5
 U 1 1 5DC018F0
 P 4400 3000
-F 0 "D3" V 4446 2921 50  0000 R CNN
+F 0 "D5" V 4446 2921 50  0000 R CNN
 F 1 "SB190" V 4355 2921 50  0000 R CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4400 2825 50  0001 C CNN
 F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 4400 3000 50  0001 C CNN
@@ -389,10 +389,10 @@ F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 4400 3000 50  0001 C
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:SB160 D4
+L Diode:SB160 D6
 U 1 1 5DC09544
 P 4650 2750
-F 0 "D4" H 4650 2534 50  0000 C CNN
+F 0 "D6" H 4650 2534 50  0000 C CNN
 F 1 "SB350" H 4650 2625 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4650 2575 50  0001 C CNN
 F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 4650 2750 50  0001 C CNN
@@ -413,10 +413,10 @@ F 3 "~" H 2600 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D9
+L Device:D_Schottky D2
 U 1 1 5DB68AA9
 P 2600 3000
-F 0 "D9" V 2646 2921 50  0000 R CNN
+F 0 "D2" V 2646 2921 50  0000 R CNN
 F 1 "SB350" V 2555 2921 50  0000 R CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 2600 3000 50  0001 C CNN
 F 3 "~" H 2600 3000 50  0001 C CNN
@@ -424,10 +424,10 @@ F 3 "~" H 2600 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C10
+L Device:C C2
 U 1 1 5DB69C95
 P 2300 3000
-F 0 "C10" H 2325 3100 50  0000 L CNN
+F 0 "C2" H 2325 3100 50  0000 L CNN
 F 1 "22nF" H 2325 2900 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2338 2850 30  0001 C CNN
 F 3 "" H 2300 3000 60  0000 C CNN
@@ -464,10 +464,10 @@ Connection ~ 2600 2800
 Wire Wire Line
 	2600 2800 2600 2850
 $Comp
-L Device:C C9
+L Device:C C1
 U 1 1 5DB90AB4
 P 2300 2550
-F 0 "C9" H 2325 2650 50  0000 L CNN
+F 0 "C1" H 2325 2650 50  0000 L CNN
 F 1 "22nF" H 2325 2450 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2338 2400 30  0001 C CNN
 F 3 "" H 2300 2550 60  0000 C CNN
@@ -482,10 +482,10 @@ Connection ~ 2300 2350
 Wire Wire Line
 	2300 2350 2600 2350
 $Comp
-L Device:D_Schottky D10
+L Device:D_Schottky D3
 U 1 1 5DBA1DEB
 P 3050 2550
-F 0 "D10" V 3096 2471 50  0000 R CNN
+F 0 "D3" V 3096 2471 50  0000 R CNN
 F 1 "SB350" V 3005 2471 50  0000 R CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3050 2550 50  0001 C CNN
 F 3 "~" H 3050 2550 50  0001 C CNN
@@ -493,10 +493,10 @@ F 3 "~" H 3050 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Schottky D11
+L Device:D_Schottky D4
 U 1 1 5DBAD0E1
 P 3050 3000
-F 0 "D11" V 3004 3079 50  0000 L CNN
+F 0 "D4" V 3004 3079 50  0000 L CNN
 F 1 "SB350" V 3095 3079 50  0000 L CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3050 3000 50  0001 C CNN
 F 3 "~" H 3050 3000 50  0001 C CNN
@@ -504,10 +504,10 @@ F 3 "~" H 3050 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C12
+L Device:C C4
 U 1 1 5DBAD9E3
 P 3500 3000
-F 0 "C12" H 3525 3100 50  0000 L CNN
+F 0 "C4" H 3525 3100 50  0000 L CNN
 F 1 "22nF" H 3525 2900 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3538 2850 30  0001 C CNN
 F 3 "" H 3500 3000 60  0000 C CNN
@@ -515,10 +515,10 @@ F 3 "" H 3500 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Device:C C3
 U 1 1 5DBBAA68
 P 3500 2550
-F 0 "C11" H 3525 2650 50  0000 L CNN
+F 0 "C3" H 3525 2650 50  0000 L CNN
 F 1 "22nF" H 3525 2450 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 3538 2400 30  0001 C CNN
 F 3 "" H 3500 2550 60  0000 C CNN
@@ -558,10 +558,10 @@ Wire Wire Line
 	3500 2750 3500 2700
 Connection ~ 3500 2750
 $Comp
-L Device:LED D12
+L Device:LED D8
 U 1 1 5DF545F1
 P 8400 3350
-F 0 "D12" H 8400 3450 50  0000 C CNN
+F 0 "D8" H 8400 3450 50  0000 C CNN
 F 1 "LED" H 8400 3250 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 8400 3350 50  0001 C CNN
 F 3 "" H 8400 3350 50  0001 C CNN
@@ -569,10 +569,10 @@ F 3 "" H 8400 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R1
 U 1 1 5DF6342D
 P 8400 2950
-F 0 "R2" V 8480 2950 50  0000 C CNN
+F 0 "R1" V 8480 2950 50  0000 C CNN
 F 1 "560R" V 8400 2950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8330 2950 30  0001 C CNN
 F 3 "" H 8400 2950 30  0000 C CNN
@@ -580,12 +580,12 @@ F 3 "" H 8400 2950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR0113
+L 12V_6V3_Delay-rescue:GND-RESCUE-12V_Supply-12V_Supply_V2-rescue #PWR?
 U 1 1 5DF63D88
 P 8400 3600
-AR Path="/5DF63D88" Ref="#PWR0113"  Part="1" 
-AR Path="/6073880F/5DF63D88" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 8400 3600 30  0001 C CNN
+AR Path="/5DF63D88" Ref="#PWR?"  Part="1" 
+AR Path="/6073880F/5DF63D88" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 8400 3600 30  0001 C CNN
 F 1 "GND" H 8400 3530 30  0001 C CNN
 F 2 "" H 8400 3600 60  0000 C CNN
 F 3 "" H 8400 3600 60  0000 C CNN

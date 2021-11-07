@@ -162,8 +162,6 @@ Wire Wire Line
 	5050 6250 5050 5050
 Connection ~ 5050 5050
 Wire Wire Line
-	3000 2500 3000 3050
-Wire Wire Line
 	2150 1700 4250 1700
 Wire Wire Line
 	2150 1800 3900 1800
@@ -229,19 +227,6 @@ Wire Wire Line
 Connection ~ 5700 2900
 Wire Wire Line
 	5700 2900 4850 2900
-$Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 5DE5C417
-P 1950 3050
-F 0 "J4" H 1868 2725 50  0000 C CNN
-F 1 "Switch" H 1868 2816 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 1950 3050 50  0001 C CNN
-F 3 "~" H 1950 3050 50  0001 C CNN
-	1    1950 3050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2150 3050 3000 3050
 Wire Wire Line
 	3500 3150 3500 3900
 Wire Wire Line
@@ -258,12 +243,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5DEA2BE6
-P 1950 2500
-F 0 "J3" H 1950 2150 50  0000 C CNN
-F 1 "12V_In" H 1950 2250 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1950 2500 50  0001 C CNN
-F 3 "~" H 1950 2500 50  0001 C CNN
-	1    1950 2500
+P 1300 2500
+F 0 "J3" H 1300 2150 50  0000 C CNN
+F 1 "12V_In" H 1300 2250 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1300 2500 50  0001 C CNN
+F 3 "~" H 1300 2500 50  0001 C CNN
+	1    1300 2500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -299,9 +284,7 @@ F 3 "" H 2700 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 2500 3000 2500
-Wire Wire Line
-	2150 2400 2700 2400
+	1500 2500 1600 2500
 Wire Wire Line
 	2700 2600 2700 2400
 Connection ~ 2700 2400
@@ -309,7 +292,6 @@ Wire Wire Line
 	2700 2400 4050 2400
 Wire Wire Line
 	3000 2500 3000 2350
-Connection ~ 3000 2500
 $Comp
 L Device:R R1
 U 1 1 606618F2
@@ -338,7 +320,7 @@ U 1 1 60667D6D
 P 2400 3750
 F 0 "D1" V 2439 3632 50  0000 R CNN
 F 1 "LED_1 Gn" V 2348 3632 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm" H 2400 3750 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm" H 2400 3750 50  0001 C CNN
 F 3 "~" H 2400 3750 50  0001 C CNN
 	1    2400 3750
 	0    -1   -1   0   
@@ -349,7 +331,7 @@ U 1 1 60668E53
 P 2950 3750
 F 0 "D2" V 2989 3632 50  0000 R CNN
 F 1 "LED_2 Gn" V 2898 3632 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z6.0mm" H 2950 3750 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O6.35mm_Z9.0mm" H 2950 3750 50  0001 C CNN
 F 3 "~" H 2950 3750 50  0001 C CNN
 	1    2950 3750
 	0    -1   -1   0   
@@ -391,25 +373,25 @@ Wire Wire Line
 Text Label 2500 3150 0    50   ~ 0
 CH_2
 Text Label 3000 1700 0    50   ~ 0
-L_1
-Text Label 3000 1900 0    50   ~ 0
 R_1
+Text Label 3000 1900 0    50   ~ 0
+L_1
 Text Label 3000 1800 0    50   ~ 0
 GND_1
 Text Label 2600 4350 0    50   ~ 0
-L_2
-Text Label 2600 4550 0    50   ~ 0
 R_2
+Text Label 2600 4550 0    50   ~ 0
+L_2
 Text Label 2600 4450 0    50   ~ 0
 GND_2
 Text Label 9050 1800 0    50   ~ 0
-L_Out
-Text Label 9050 2200 0    50   ~ 0
 R_Out
+Text Label 9050 2200 0    50   ~ 0
+L_Out
 Text Label 5950 1700 0    50   ~ 0
-L_Sw
-Text Label 6000 2100 0    50   ~ 0
 R_Sw
+Text Label 6000 2100 0    50   ~ 0
+L_Sw
 Text Label 6050 2000 0    50   ~ 0
 GND_Sw
 Text Label 2250 2950 0    50   ~ 0
@@ -425,7 +407,7 @@ L Connector_Generic:Conn_01x03 J5
 U 1 1 6098BF9E
 P 9800 1900
 F 0 "J5" H 9718 1575 50  0000 C CNN
-F 1 "Out_L" H 9718 1666 50  0000 C CNN
+F 1 "Out_R" H 9718 1666 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 9800 1900 50  0001 C CNN
 F 3 "~" H 9800 1900 50  0001 C CNN
 	1    9800 1900
@@ -436,7 +418,7 @@ L Connector_Generic:Conn_01x03 J6
 U 1 1 6098D437
 P 9800 2300
 F 0 "J6" H 9718 1975 50  0000 C CNN
-F 1 "Out_R" H 9718 2066 50  0000 C CNN
+F 1 "Out_L" H 9718 2066 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 9800 2300 50  0001 C CNN
 F 3 "~" H 9800 2300 50  0001 C CNN
 	1    9800 2300
@@ -444,8 +426,6 @@ F 3 "~" H 9800 2300 50  0001 C CNN
 $EndComp
 Text Notes 7600 1500 0    50   ~ 0
 50k/20k Potis gibts bei Reichelt nicht
-Text Notes 1800 1350 0    50   ~ 0
-Schirm fehlt
 $Comp
 L power:GNDS #PWR0105
 U 1 1 609C223D
@@ -491,7 +471,7 @@ L Connector_Generic:Conn_01x04 J1
 U 1 1 609D2FC6
 P 1950 1800
 F 0 "J1" H 1868 1375 50  0000 C CNN
-F 1 "In_L" H 1868 1466 50  0000 C CNN
+F 1 "In_1" H 1868 1466 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1950 1800 50  0001 C CNN
 F 3 "~" H 1950 1800 50  0001 C CNN
 	1    1950 1800
@@ -502,7 +482,7 @@ L Connector_Generic:Conn_01x04 J2
 U 1 1 609D53DC
 P 1950 4450
 F 0 "J2" H 1868 4025 50  0000 C CNN
-F 1 "In_R" H 1868 4116 50  0000 C CNN
+F 1 "In_2" H 1868 4116 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 1950 4450 50  0001 C CNN
 F 3 "~" H 1950 4450 50  0001 C CNN
 	1    1950 4450
@@ -546,4 +526,157 @@ Wire Wire Line
 Wire Wire Line
 	2950 3150 2150 3150
 Connection ~ 2950 3150
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 612235A4
+P 9750 4150
+F 0 "J8" H 9668 4367 50  0000 C CNN
+F 1 "Standby" H 9668 4276 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9750 4150 50  0001 C CNN
+F 3 "~" H 9750 4150 50  0001 C CNN
+	1    9750 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 612235BC
+P 9200 4150
+F 0 "J7" H 9118 4367 50  0000 C CNN
+F 1 "VU_On" H 9118 4276 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9200 4150 50  0001 C CNN
+F 3 "~" H 9200 4150 50  0001 C CNN
+	1    9200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 612235E3
+P 10000 4350
+F 0 "#PWR0109" H 10000 4100 50  0001 C CNN
+F 1 "GND" H 10005 4177 50  0000 C CNN
+F 2 "" H 10000 4350 50  0001 C CNN
+F 3 "" H 10000 4350 50  0001 C CNN
+	1    10000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4250 10000 4250
+Wire Wire Line
+	10000 4250 10000 4350
+$Comp
+L power:GND #PWR0111
+U 1 1 612235F9
+P 10800 4400
+F 0 "#PWR0111" H 10800 4150 50  0001 C CNN
+F 1 "GND" H 10805 4227 50  0000 C CNN
+F 2 "" H 10800 4400 50  0001 C CNN
+F 3 "" H 10800 4400 50  0001 C CNN
+	1    10800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4150 8800 4150
+$Comp
+L power:GND #PWR0112
+U 1 1 61223608
+P 8900 4350
+F 0 "#PWR0112" H 8900 4100 50  0001 C CNN
+F 1 "GND" H 8905 4177 50  0000 C CNN
+F 2 "" H 8900 4350 50  0001 C CNN
+F 3 "" H 8900 4350 50  0001 C CNN
+	1    8900 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4250 8900 4250
+Wire Wire Line
+	8900 4250 8900 4350
+$Comp
+L power:+12V #PWR0113
+U 1 1 61223620
+P 8150 4150
+F 0 "#PWR0113" H 8150 4000 50  0001 C CNN
+F 1 "+12V" H 8165 4323 50  0000 C CNN
+F 2 "" H 8150 4150 50  0001 C CNN
+F 3 "" H 8150 4150 50  0001 C CNN
+	1    8150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4150 8150 4250
+Wire Wire Line
+	8150 4250 8300 4250
+NoConn ~ 8700 4350
+Wire Wire Line
+	1750 3050 1600 3050
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 611FB6FE
+P 1950 3050
+F 0 "SW1" H 1950 3335 50  0000 C CNN
+F 1 "Input" H 1950 3244 50  0000 C CNN
+F 2 "Switch_Angled:7101MD9ABE" H 1950 3050 50  0001 C CNN
+F 3 "~" H 1950 3050 50  0001 C CNN
+	1    1950 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 612DD8B9
+P 8500 4250
+F 0 "SW2" H 8500 4535 50  0000 C CNN
+F 1 "VU_On" H 8500 4444 50  0000 C CNN
+F 2 "Switch_Angled:7101MD9AV2BE" H 8500 4250 50  0001 C CNN
+F 3 "~" H 8500 4250 50  0001 C CNN
+	1    8500 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 612E47F5
+P 10550 4150
+F 0 "SW3" H 10550 4435 50  0000 C CNN
+F 1 "Standby" H 10550 4344 50  0000 C CNN
+F 2 "Switch_Angled:7101MD9AV2BE" H 10550 4150 50  0001 C CNN
+F 3 "~" H 10550 4150 50  0001 C CNN
+	1    10550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4250 10800 4250
+Wire Wire Line
+	10800 4250 10800 4400
+NoConn ~ 10750 4050
+Wire Wire Line
+	1500 2400 2700 2400
+Wire Wire Line
+	1600 3050 1600 2500
+Connection ~ 1600 2500
+Wire Wire Line
+	1600 2500 3000 2500
+Wire Wire Line
+	9950 4150 10350 4150
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 617211DD
+P 9200 3650
+F 0 "J4" H 9118 3867 50  0000 C CNN
+F 1 "VU_On" H 9118 3776 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 9200 3650 50  0001 C CNN
+F 3 "~" H 9200 3650 50  0001 C CNN
+	1    9200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3650 8800 3650
+Wire Wire Line
+	8800 3650 8800 4150
+Connection ~ 8800 4150
+Wire Wire Line
+	8800 4150 9000 4150
+Wire Wire Line
+	8900 4250 8900 3750
+Wire Wire Line
+	8900 3750 9000 3750
+Connection ~ 8900 4250
 $EndSCHEMATC

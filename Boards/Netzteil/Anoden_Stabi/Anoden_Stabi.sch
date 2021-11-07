@@ -605,4 +605,6 @@ Wire Wire Line
 	8000 5200 7400 5200
 Wire Wire Line
 	7400 5200 7400 4900
+Text Notes 6550 2700 0    50   ~ 0
+28.4K für 250V
 $EndSCHEMATC

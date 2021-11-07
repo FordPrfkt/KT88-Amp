@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name w_conn_av)(type KiCad)(uri C:/Users/danie/Documents/Projekte/KiCad/Kicad_Lib/Footprint/w_conn_av.pretty)(options "")(descr ""))
+  (lib (name Connector_Lumberg)(type KiCad)(uri ${KIPRJMOD}/Connector_Lumberg.pretty)(options "")(descr ""))
+)

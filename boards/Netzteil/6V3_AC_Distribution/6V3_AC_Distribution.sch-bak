@@ -1,0 +1,141 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 6127DCCF
+P 5000 2750
+F 0 "J1" H 4918 2967 50  0000 C CNN
+F 1 "Conn_01x02" H 4918 2876 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 5000 2750 50  0001 C CNN
+F 3 "~" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 6127E77A
+P 5000 3150
+F 0 "J2" H 4918 3367 50  0000 C CNN
+F 1 "Conn_01x02" H 4918 3276 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 5000 3150 50  0001 C CNN
+F 3 "~" H 5000 3150 50  0001 C CNN
+	1    5000 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 6127EDF3
+P 5000 3550
+F 0 "J3" H 4918 3767 50  0000 C CNN
+F 1 "Conn_01x02" H 4918 3676 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 5000 3550 50  0001 C CNN
+F 3 "~" H 5000 3550 50  0001 C CNN
+	1    5000 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 6127F7FA
+P 5000 3950
+F 0 "J4" H 4918 4167 50  0000 C CNN
+F 1 "Conn_01x02" H 4918 4076 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 5000 3950 50  0001 C CNN
+F 3 "~" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 6127FEB9
+P 5000 4350
+F 0 "J5" H 4918 4567 50  0000 C CNN
+F 1 "Conn_01x02" H 4918 4476 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical" H 5000 4350 50  0001 C CNN
+F 3 "~" H 5000 4350 50  0001 C CNN
+	1    5000 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2750 5650 2750
+Wire Wire Line
+	5650 2750 5650 3150
+Wire Wire Line
+	5550 2850 5200 2850
+Wire Wire Line
+	5200 3150 5650 3150
+Connection ~ 5650 3150
+Wire Wire Line
+	5650 3150 5650 3550
+Wire Wire Line
+	5200 3550 5650 3550
+Connection ~ 5650 3550
+Wire Wire Line
+	5650 3550 5650 3950
+Wire Wire Line
+	5200 3950 5650 3950
+Connection ~ 5650 3950
+Wire Wire Line
+	5650 3950 5650 4350
+Wire Wire Line
+	5200 4350 5650 4350
+Wire Wire Line
+	5200 4450 5550 4450
+Wire Wire Line
+	5550 4450 5550 4050
+Wire Wire Line
+	5200 4050 5550 4050
+Connection ~ 5550 4050
+Wire Wire Line
+	5550 4050 5550 3650
+Wire Wire Line
+	5200 3650 5550 3650
+Connection ~ 5550 3650
+Wire Wire Line
+	5550 3650 5550 3250
+Wire Wire Line
+	5200 3250 5550 3250
+Connection ~ 5550 3250
+Wire Wire Line
+	5550 3250 5550 2850
+$Comp
+L power:AC #PWR0101
+U 1 1 612859F2
+P 5650 2700
+F 0 "#PWR0101" H 5650 2600 50  0001 C CNN
+F 1 "AC" H 5650 2975 50  0000 C CNN
+F 2 "" H 5650 2700 50  0001 C CNN
+F 3 "" H 5650 2700 50  0001 C CNN
+	1    5650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 612863FB
+P 5550 4550
+F 0 "#PWR0102" H 5550 4300 50  0001 C CNN
+F 1 "GND" H 5555 4377 50  0000 C CNN
+F 2 "" H 5550 4550 50  0001 C CNN
+F 3 "" H 5550 4550 50  0001 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4550 5550 4450
+Connection ~ 5550 4450
+Wire Wire Line
+	5650 2700 5650 2750
+Connection ~ 5650 2750
+$EndSCHEMATC
