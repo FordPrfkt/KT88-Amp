@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name Regler-rescue)(type Legacy)(uri ${KIPRJMOD}/Regler-rescue.lib)(options "")(descr ""))
-  (lib (name borniers)(type Legacy)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/Kicad_Lib/borniers/borniers.lib")(options "")(descr ""))
-  (lib (name GR_relays)(type Legacy)(uri D:/KiCadLibs/GR_relays.lib)(options "")(descr ""))
-  (lib (name reed_relais)(type Legacy)(uri D:/KiCadLibs/reed_relais.lib)(options "")(descr ""))
-)

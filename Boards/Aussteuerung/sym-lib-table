@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Aussteuerung-rescue")(type "Legacy")(uri "${KIPRJMOD}/Aussteuerung-rescue.lib")(options "")(descr ""))
+)
