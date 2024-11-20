@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -68,12 +68,30 @@
     "visible_layers": "000fffe_80000001",
     "zone_display_mode": 1
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "Anoden_Stabi.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
+      {
+        "name": "Anoden_Stabi.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 2576,
+          "size_y": 1456
+        }
+      },
       {
         "name": "Anoden_Stabi.kicad_pcb",
         "open": false,

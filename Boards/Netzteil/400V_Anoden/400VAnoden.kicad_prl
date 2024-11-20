@@ -68,24 +68,17 @@
     "visible_layers": "001ffff_80000001",
     "zone_display_mode": 1
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "400VAnoden.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "400VAnoden.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 2576,
-          "size_y": 1456
-        }
-      }
-    ]
+    "files": []
   }
 }

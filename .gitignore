@@ -51,5 +51,6 @@
 #Kicad Backup files
 *.bak
 *.kicad_pcb-bak
-
+*-backups
 *.d
+*.zip

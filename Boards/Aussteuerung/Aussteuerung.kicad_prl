@@ -3,10 +3,12 @@
     "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
+    "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -65,6 +67,12 @@
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 1
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "Aussteuerung.kicad_prl",
     "version": 3
@@ -72,7 +80,7 @@
   "project": {
     "files": [
       {
-        "name": "Aussteuerung.kicad_pcb",
+        "name": "Aussteuerung.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
@@ -84,7 +92,7 @@
         }
       },
       {
-        "name": "Aussteuerung.kicad_sch",
+        "name": "Aussteuerung.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,

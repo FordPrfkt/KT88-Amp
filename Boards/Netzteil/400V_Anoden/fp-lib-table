@@ -1,6 +1,8 @@
 (fp_lib_table
-  (lib (name EuroBoard)(type KiCad)(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/EuroBoard.pretty")(options "")(descr ""))
-  (lib (name Capacitor-Wima-FKP1-1600v)(type Legacy)(uri D:/KiCadLibs/converted/Capacitor-Wima-FKP1-1600v.mod)(options "")(descr ""))
-  (lib (name Capacitor-Wima-MKP10-630v)(type Legacy)(uri D:/KiCadLibs/converted/Capacitor-Wima-MKP10-630v.mod)(options "")(descr ""))
-  (lib (name footprints)(type KiCad)(uri C:/Users/danie/Documents/Projekte/KiCad/Molex_MiniFit-Jr/2021-08-25_21-12-00/footprints.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "EuroBoard")(type "KiCad")(uri "D:/Eigene Dateien/Dokumente/Projekte/KiCad/EuroBoard.pretty")(options "")(descr ""))
+  (lib (name "Capacitor-Wima-FKP1-1600v")(type "Legacy")(uri "D:/KiCadLibs/converted/Capacitor-Wima-FKP1-1600v.mod")(options "")(descr ""))
+  (lib (name "Capacitor-Wima-MKP10-630v")(type "Legacy")(uri "D:/KiCadLibs/converted/Capacitor-Wima-MKP10-630v.mod")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/danie/Documents/Projekte/KiCad/Molex_MiniFit-Jr/2021-08-25_21-12-00/footprints.pretty")(options "")(descr ""))
+  (lib (name "Fuse_Holder_Eska")(type "KiCad")(uri "C:/Users/danie/Documents/Projekte/KiCad/Fuse_Holder_Eska.pretty")(options "")(descr ""))
 )
