@@ -3177,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D17.0mm_P7.50mm"
 			(at 131.7752 83.82 0)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D17.0mm_P7.50mm"
 			(at 155.9052 96.52 0)
 			(effects
 				(font
@@ -4039,7 +4039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D17.0mm_P7.50mm"
 			(at 127.9652 144.78 0)
 			(effects
 				(font
