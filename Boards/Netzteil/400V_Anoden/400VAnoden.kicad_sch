@@ -4059,6 +4059,16 @@
 		)
 		(uuid "ffe7b62b-3c27-40d0-b7aa-19c7f6a18135")
 	)
+	(text "10H / 400mA"
+		(exclude_from_sim no)
+		(at 169.164 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6f134fc-b977-4ef9-981a-15f2ac02118d")
+	)
 	(label "+450V_DC"
 		(at 252.73 63.5 0)
 		(fields_autoplaced yes)
