@@ -80,6 +80,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "6V3_AC_Distribution.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 2576,
+          "size_y": 1456
+        }
+      },
+      {
+        "name": "6V3_AC_Distribution.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 2576,
+          "size_y": 1456
+        }
+      }
+    ]
   }
 }
