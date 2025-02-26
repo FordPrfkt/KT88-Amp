@@ -2241,374 +2241,6 @@
 				)
 			)
 		)
-		(symbol "Endstufe-rescue:G6E"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "G6E"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Relays_THT:Relay_SPDT_OMRON-G6E"
-				(at 28.702 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay*SPDT*OMRON*G6E*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "G6E_0_0"
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -4.064 3.556 0)
-					(effects
-						(font
-							(size 1.524 1.524)
-						)
-					)
-				)
-			)
-			(symbol "G6E_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "G6E_1_1"
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Endstufe-rescue:GND"
 			(power)
 			(pin_names
@@ -3408,6 +3040,436 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Relay:G5V-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "G5V-1"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G5V-1"
+				(at 28.702 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Pole Relay SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay*SPDT*Omron*G5V?1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "G5V-1_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "G5V-1_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "G5V-1_1_1"
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54) hide
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_names
@@ -3536,12 +3598,6 @@
 		(uuid "00552838-e547-4db1-81e4-224598daa9f6")
 	)
 	(junction
-		(at 67.31 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0159a599-df26-4190-b4d7-bf303437a97a")
-	)
-	(junction
 		(at 114.3 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3570,6 +3626,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b0af579-7dd1-41f5-ae27-aa83d480d08e")
+	)
+	(junction
+		(at 34.29 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d70a26d-e2c4-4d7c-9e7e-f8cc061c16bd")
 	)
 	(junction
 		(at 262.89 93.98)
@@ -3710,10 +3772,10 @@
 		(uuid "7bfdbd51-aed6-4dcc-9fd2-56c0dd423daf")
 	)
 	(junction
-		(at 34.29 173.99)
+		(at 29.21 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8eed701f-673b-4e13-ac9c-fd8d6cb1250a")
+		(uuid "8187e43f-3659-4c16-97d1-9ab1b8d2e607")
 	)
 	(junction
 		(at 232.41 39.37)
@@ -3750,6 +3812,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3ebc73b-095f-415e-8679-fd8c7a3fd7e4")
+	)
+	(junction
+		(at 66.04 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab07c5bf-d07c-4556-9d9c-102f6015a4e9")
 	)
 	(junction
 		(at 200.66 38.1)
@@ -3816,12 +3884,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f012d41f-c575-4e0c-973d-7217435ab1b4")
-	)
-	(junction
-		(at 29.21 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f67c2a76-11e6-4250-826b-4d0bf0d6de77")
 	)
 	(junction
 		(at 259.08 93.98)
@@ -3907,6 +3969,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 166.37) (xy 38.1 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c711a70-eebb-4a22-9ce4-615877a0b507")
+	)
+	(wire
+		(pts
+			(xy 29.21 171.45) (xy 26.67 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cba9ece-86f0-4154-ae7d-d9c248b9fc4e")
+	)
+	(wire
+		(pts
 			(xy 220.98 48.26) (xy 220.98 49.53)
 		)
 		(stroke
@@ -3964,16 +4046,6 @@
 			(type default)
 		)
 		(uuid "0eedf353-06c7-464d-b9a2-d1092f86ddfc")
-	)
-	(wire
-		(pts
-			(xy 29.21 176.53) (xy 29.21 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f5847c8-8800-4b2b-bcdc-38372d5c201e")
 	)
 	(wire
 		(pts
@@ -4054,16 +4126,6 @@
 			(type default)
 		)
 		(uuid "17b0d1c8-2c7e-4e8e-a6d4-af773760ea8c")
-	)
-	(wire
-		(pts
-			(xy 26.67 176.53) (xy 29.21 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1813663a-5289-4632-9c86-86110debd5cf")
 	)
 	(wire
 		(pts
@@ -4307,16 +4369,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 168.91) (xy 67.31 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f810e8e-2894-4c0e-8f83-841f1414bb7c")
-	)
-	(wire
-		(pts
 			(xy 157.48 91.44) (xy 157.48 97.79)
 		)
 		(stroke
@@ -4417,16 +4469,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 166.37) (xy 26.67 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9ed0b0-4521-4ec7-a66e-db1d7eb74b04")
-	)
-	(wire
-		(pts
 			(xy 224.79 48.26) (xy 220.98 48.26)
 		)
 		(stroke
@@ -4464,16 +4506,6 @@
 			(type default)
 		)
 		(uuid "3f850cc3-2f60-413e-9a12-8572aadab9f9")
-	)
-	(wire
-		(pts
-			(xy 38.1 179.07) (xy 26.67 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4096c8e3-18de-4d14-8837-37b1085905cd")
 	)
 	(wire
 		(pts
@@ -4574,6 +4606,16 @@
 			(type default)
 		)
 		(uuid "49abba3b-bd0a-4b27-b950-3fd685703b9b")
+	)
+	(wire
+		(pts
+			(xy 34.29 176.53) (xy 38.1 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a956970-18ef-4f40-8004-65e1b39ab872")
 	)
 	(wire
 		(pts
@@ -4687,16 +4729,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 171.45) (xy 38.1 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60148d70-8236-4326-86c0-5834158f4718")
-	)
-	(wire
-		(pts
 			(xy 241.3 49.53) (xy 243.84 49.53)
 		)
 		(stroke
@@ -4734,6 +4766,16 @@
 			(type default)
 		)
 		(uuid "651a6637-b8eb-400c-98e2-e30c05336858")
+	)
+	(wire
+		(pts
+			(xy 26.67 176.53) (xy 34.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652f4573-45d3-48d1-a496-9f3526472703")
 	)
 	(wire
 		(pts
@@ -4937,6 +4979,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 171.45) (xy 29.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cac305-7041-45b7-93ef-ffb63719f9eb")
+	)
+	(wire
+		(pts
 			(xy 186.69 49.53) (xy 187.96 49.53)
 		)
 		(stroke
@@ -5034,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "8333d76e-e1b8-439f-9369-3f32cf9a3675")
+	)
+	(wire
+		(pts
+			(xy 26.67 179.07) (xy 38.1 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83927251-521b-4119-90a6-1ff49806ec62")
 	)
 	(wire
 		(pts
@@ -5157,6 +5219,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 168.91) (xy 66.04 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed2e259-24e2-4fa1-91c1-f7f64c1bccb7")
+	)
+	(wire
+		(pts
 			(xy 165.1 97.79) (xy 193.04 97.79)
 		)
 		(stroke
@@ -5164,16 +5236,6 @@
 			(type default)
 		)
 		(uuid "8f0de1c3-b44d-47c9-abe0-e037fb77d7f5")
-	)
-	(wire
-		(pts
-			(xy 38.1 173.99) (xy 34.29 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e29598-2246-4a35-b214-366dc6c1121e")
 	)
 	(wire
 		(pts
@@ -5317,17 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 154.94) (xy 34.29 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "994d37e9-b259-478b-bf33-fd7ad6074d59")
-	)
-	(wire
-		(pts
-			(xy 64.77 168.91) (xy 67.31 168.91)
+			(xy 64.77 168.91) (xy 66.04 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5354,16 +5406,6 @@
 			(type default)
 		)
 		(uuid "99f5dcba-76f2-42b5-9809-22fbde85df65")
-	)
-	(wire
-		(pts
-			(xy 34.29 173.99) (xy 26.67 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a391e9c-0da3-4ce0-a73a-1553627ed004")
 	)
 	(wire
 		(pts
@@ -5507,6 +5549,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 168.91) (xy 38.1 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf26aa2-ecb7-4d5b-98ff-4b0ed70ca1c9")
+	)
+	(wire
+		(pts
 			(xy 137.16 46.99) (xy 137.16 64.77)
 		)
 		(stroke
@@ -5557,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 176.53) (xy 67.31 184.15)
+			(xy 66.04 176.53) (xy 66.04 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5927,6 +5979,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 173.99) (xy 29.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42ec67e-a033-4d93-81f4-663fc445528f")
+	)
+	(wire
+		(pts
 			(xy 193.04 80.01) (xy 193.04 82.55)
 		)
 		(stroke
@@ -5947,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 176.53) (xy 67.31 176.53)
+			(xy 66.04 176.53) (xy 64.77 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5974,16 +6036,6 @@
 			(type default)
 		)
 		(uuid "d6a48fce-2042-4d8c-a583-7f0301729b76")
-	)
-	(wire
-		(pts
-			(xy 38.1 168.91) (xy 26.67 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78b5a65-1fde-4ebc-9dc2-78efbddd07eb")
 	)
 	(wire
 		(pts
@@ -6107,6 +6159,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 173.99) (xy 29.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3989a2d-bcbc-4f0b-be64-5c3f45fe7ffc")
+	)
+	(wire
+		(pts
 			(xy 41.91 88.9) (xy 41.91 87.63)
 		)
 		(stroke
@@ -6144,16 +6206,6 @@
 			(type default)
 		)
 		(uuid "eb2bd1b2-cef8-4414-9af1-4ce7207a025a")
-	)
-	(wire
-		(pts
-			(xy 29.21 176.53) (xy 29.21 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc24774-255e-4015-8e5b-378471e18b98")
 	)
 	(wire
 		(pts
@@ -6364,6 +6416,16 @@
 			(type default)
 		)
 		(uuid "fdf4e5e5-ce2c-447d-bb90-a5b6b60c83c5")
+	)
+	(wire
+		(pts
+			(xy 34.29 154.94) (xy 34.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1be406-0970-4dee-9e98-ec417371017c")
 	)
 	(wire
 		(pts
@@ -6693,7 +6755,6 @@
 	)
 	(label "+450V_T2"
 		(at 234.95 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6704,7 +6765,6 @@
 	)
 	(label "+450V_T1"
 		(at 234.95 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6759,7 +6819,7 @@
 	)
 	(global_label "+240V"
 		(shape input)
-		(at 38.1 173.99 0)
+		(at 38.1 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6769,7 +6829,7 @@
 		)
 		(uuid "36ccad9c-f214-4436-a670-215a0a2b0c13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.4442 173.99 0)
+			(at 48.4442 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +6951,7 @@
 	)
 	(global_label "+300V"
 		(shape input)
-		(at 38.1 171.45 0)
+		(at 38.1 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6901,7 +6961,7 @@
 		)
 		(uuid "722c5f47-49d1-417a-acf5-2e8e35f71eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.4442 171.45 0)
+			(at 48.4442 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6973,7 @@
 	)
 	(global_label "-60V"
 		(shape input)
-		(at 38.1 179.07 0)
+		(at 38.1 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6923,7 +6983,7 @@
 		)
 		(uuid "89c503ab-3ca7-41ee-a265-48334e952ca8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.9928 179.07 0)
+			(at 46.9928 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7105,7 @@
 	)
 	(global_label "-120V"
 		(shape input)
-		(at 38.1 168.91 0)
+		(at 38.1 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7055,7 +7115,7 @@
 		)
 		(uuid "c167a42f-8f94-4817-8d6a-8beef5aeda79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.4442 168.91 0)
+			(at 48.4442 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
 			(at 116.84 37.7952 0)
 			(effects
 				(font
@@ -7883,7 +7943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical_Hole"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical"
 			(at 105.41 64.77 0)
 			(effects
 				(font
@@ -8278,7 +8338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
 			(at 115.57 97.4852 0)
 			(effects
 				(font
@@ -8475,7 +8535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W4.4mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm"
 			(at 113.3348 43.18 0)
 			(effects
 				(font
@@ -8873,7 +8933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
 			(at 157.48 98.7552 0)
 			(effects
 				(font
@@ -8941,7 +9001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
 			(at 157.48 39.0652 0)
 			(effects
 				(font
@@ -9204,7 +9264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
 			(at 157.48 32.7152 0)
 			(effects
 				(font
@@ -9272,7 +9332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
 			(at 157.48 92.4052 0)
 			(effects
 				(font
@@ -9537,7 +9597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 127 184.15 0)
 			(effects
 				(font
@@ -9799,7 +9859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical_Hole"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical"
 			(at 266.7 101.6 0)
 			(effects
 				(font
@@ -9870,7 +9930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm"
 			(at 258.1148 97.79 0)
 			(effects
 				(font
@@ -10199,7 +10259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm"
 			(at 214.63 26.3652 0)
 			(effects
 				(font
@@ -10242,7 +10302,8 @@
 	)
 	(symbol
 		(lib_id "Endstufe-rescue:C")
-		(at 217.17 110.49 270)
+		(at 217.17 110.49 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10250,7 +10311,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000055ce1b07")
 		(property "Reference" "C13"
-			(at 218.44 111.76 90)
+			(at 215.9 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +10320,7 @@
 			)
 		)
 		(property "Value" "68pF / 500V"
-			(at 210.82 107.95 90)
+			(at 223.52 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,8 +10328,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 213.36 111.4552 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm"
+			(at 220.98 111.4552 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10401,7 +10462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm"
 			(at 199.6948 39.37 0)
 			(effects
 				(font
@@ -10469,7 +10530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P7.50mm"
 			(at 199.6948 85.09 0)
 			(effects
 				(font
@@ -10605,7 +10666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D9.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
 			(at 49.53 51.7652 0)
 			(effects
 				(font
@@ -10906,7 +10967,7 @@
 	)
 	(symbol
 		(lib_id "Endstufe-rescue:GND")
-		(at 67.31 184.15 0)
+		(at 66.04 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10914,7 +10975,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058159752")
 		(property "Reference" "#PWR012"
-			(at 67.31 190.5 0)
+			(at 66.04 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +10984,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 187.96 0)
+			(at 66.04 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,7 +10992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 184.15 0)
+			(at 66.04 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,7 +11000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 184.15 0)
+			(at 66.04 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +11008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 184.15 0)
+			(at 66.04 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,84 +11155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Endstufe-rescue:G6E")
-		(at 36.83 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a918d4f")
-		(property "Reference" "K1"
-			(at 48.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G6E"
-			(at 48.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G6E"
-			(at 65.532 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "030c14b4-74ad-4338-b228-21ff03b856ca")
-		)
-		(pin "10"
-			(uuid "23caa2ec-b534-4750-9c6c-307a55ba0e68")
-		)
-		(pin "12"
-			(uuid "adf17aef-b7da-4bd0-8ee2-c9dcde2bf46a")
-		)
-		(pin "6"
-			(uuid "0329264a-95a9-4fb3-bc16-d2064258d59b")
-		)
-		(pin "7"
-			(uuid "8dfcc66e-e86b-425b-a651-f0726deab5a4")
-		)
-		(instances
-			(project "Endstufe"
-				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Endstufe-rescue:Conn_01x06")
 		(at 21.59 171.45 0)
 		(mirror y)
@@ -11197,7 +11180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
 			(at 21.59 171.45 0)
 			(effects
 				(font
@@ -11415,7 +11398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
 			(at 267.97 59.69 0)
 			(effects
 				(font
@@ -11490,7 +11473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 267.97 81.28 0)
 			(effects
 				(font
@@ -11886,69 +11869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Endstufe-rescue:GND")
-		(at 111.76 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060ce013f")
-		(property "Reference" "#PWR0103"
-			(at 111.76 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2ad26b5-a721-4179-89a4-0b78ad7692b1")
-		)
-		(instances
-			(project "Endstufe"
-				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 71.12 156.21 0)
 		(unit 1)
@@ -12038,7 +11958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 218.44 58.42 0)
 			(effects
 				(font
@@ -12105,7 +12025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 218.44 74.93 0)
 			(effects
 				(font
@@ -12242,7 +12162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 21.59 154.94 0)
 			(effects
 				(font
@@ -12374,7 +12294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770866-x_1x02_P4.14mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
 			(at 267.97 34.29 0)
 			(effects
 				(font
@@ -12419,6 +12339,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 187.96 87.63 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12426,7 +12347,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061386ed6")
 		(property "Reference" "C15"
-			(at 184.15 90.17 0)
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +12355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF/100V"
+		(property "Value" "10µF/400V"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -12443,7 +12364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 187.96 87.63 0)
 			(effects
 				(font
@@ -12488,6 +12409,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 187.96 54.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12495,7 +12417,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006138818c")
 		(property "Reference" "C14"
-			(at 184.15 57.15 0)
+			(at 184.15 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF/100V"
+		(property "Value" "10µF/400V"
 			(at 175.26 54.61 0)
 			(effects
 				(font
@@ -12512,7 +12434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 187.96 54.61 0)
 			(effects
 				(font
@@ -12612,6 +12534,535 @@
 			(project "Endstufe"
 				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G5V-1")
+		(at 36.83 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "159d9b32-9eb4-462e-a22e-6b5d3456aa95")
+		(property "Reference" "K2"
+			(at 47.752 77.5278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5V-1"
+			(at 47.752 79.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G5V-1"
+			(at 65.532 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf"
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits"
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "01e6d17e-be83-44eb-89f5-314f80ad1260")
+		)
+		(pin "6"
+			(uuid "395bb153-6475-44ea-a1ee-96c2de3296df")
+		)
+		(pin "2"
+			(uuid "fe874053-5b72-4ea3-b6bf-2d54f1ae891f")
+		)
+		(pin "5"
+			(uuid "12b7228c-ce13-4389-bfe4-4fbbba86e841")
+		)
+		(pin "1"
+			(uuid "a78cbc29-a33c-4377-89fd-0e485d8272f9")
+		)
+		(pin "10"
+			(uuid "a3ea8b1b-8c76-4291-b9c9-dd43ad22a9c3")
+		)
+		(instances
+			(project ""
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 194.31 152.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17b325d5-68c1-47f9-820f-56e15ca7b71b")
+		(property "Reference" "H1"
+			(at 196.85 151.1878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 196.85 153.6121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 231.14 152.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24d688a7-3db3-4b87-aa5d-f65ac6aec2c9")
+		(property "Reference" "H6"
+			(at 233.68 151.1878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 233.68 153.6121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 231.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 231.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Endstufe"
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Endstufe-rescue:GND")
+		(at 111.76 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3246c675-6947-4012-8dcd-60ab19b3f8a4")
+		(property "Reference" "#PWR06"
+			(at 111.76 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c7ad07f-8beb-43f2-9b5b-6590f3d7c34c")
+		)
+		(instances
+			(project "Endstufe"
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 212.09 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3743f92e-cb8f-456a-8b02-242e1335720d")
+		(property "Reference" "H3"
+			(at 214.63 144.8378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 214.63 147.2621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Endstufe"
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 212.09 152.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861eb0cb-af8d-4592-9e50-4bc2eea7a2be")
+		(property "Reference" "H4"
+			(at 214.63 151.1878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 214.63 153.6121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 212.09 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 212.09 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Endstufe"
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 194.31 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d93fff58-e87f-4318-9af6-2618d9556151")
+		(property "Reference" "H2"
+			(at 196.85 144.8378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 196.85 147.2621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Endstufe"
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 231.14 146.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df7a9d93-aad4-48e5-a061-74704fe6ad4b")
+		(property "Reference" "H5"
+			(at 233.68 144.8378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 233.68 147.2621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 231.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Endstufe"
+				(path "/bc987d5d-f950-4728-935b-e957762a5ac9"
+					(reference "H5")
 					(unit 1)
 				)
 			)
